@@ -1,12 +1,11 @@
-sfHover = function() {
-        var sfEls = document.getElementById("menu").getElementsByTagName("LI");
-        for (var i=0; i<sfEls.length; i++) {
-                sfEls[i].onmouseover=function() {
-                        this.className+=" sfhover";
+if (window.attachEvent) {
+        var sfhover = function(n) {
+                var i, s=document.getElementById(n).getElementsByTagName('li'), l=s.length;
+                for (i=0; i<l; i++) {
+                        s[i].onmouseover=function() {this.classList.add('sfhover');}
+                        s[i].onmouseout=function() {this.classList.remove('sfhover');}
                 }
-                sfEls[i].onmouseout=function() {
-                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
-                }
-        }
+        };
+        window.attachEvent('onload', sfhover('menu'));
+        window.attachEvent('onload', sfhover('menuA'));
 }
-if (window.attachEvent) window.attachEvent("onload", sfHover);

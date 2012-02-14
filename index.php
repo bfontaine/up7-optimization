@@ -7,7 +7,6 @@
                 <script src="js/jquery-1.7.1.min.js"></script>
                 <script src="js/menu.js"></script>
                 <script src="js/slide.js"></script>
-                <script src="js/menuA.js"></script>
 
                 <link href="css/commun.css" rel="stylesheet" type="text/css"/>
                 <link href="css/site.css" rel="stylesheet" type="text/css"/>
