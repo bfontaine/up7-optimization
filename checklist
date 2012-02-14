@@ -4,15 +4,17 @@ X : Done
 
 [~] Get all css/js/image files
 [~] Re-create an file tree
-[ ] Delete comments (js/css/html)
+[X] Delete useless comments (js/css/html)
 [ ] Delete unused JS functions
 [ ] Delete unused CSS instructions
+[ ] Optimize JS scripts
 [ ] Merge similar CSS files
 [ ] Merge similar JS scripts
+[ ] minify CSS/JS files
 [ ] Use HTML5 new tags & attributes
 [ ] Use CSS where there's no need of image
 [ ] Use CSS Sprites where needed
 [ ] Use gzip compression
-[ ] Optimise images (delete useless EXIF data)
+[ ] Optimize images (delete useless EXIF data)
 [ ] Write dimensions of images in the HTML source code
 [ ] Use subdomains for static images

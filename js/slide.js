@@ -1,6 +1,4 @@
-// JavaScript Document
 $(document).ready(function(){
-	//Configuration
 		  var retour = false;
 		  var tempsTransition = 800;
 		  var affichePlayPause = true;
@@ -8,8 +6,8 @@ $(document).ready(function(){
 		  	var tempsAttente = 6000;
 			
 		  var icones = new Array();
-		  		icones['play'] = '../accueil/includes/slideshow/img/play_slider.png';
-		  		icones['pause'] = '../accueil/includes/slideshow/img/pause_slider.png';	
+		  		icones['play'] = '../images/slideshow/play_slider.png';
+		  		icones['pause'] = '../images/slideshow/pause_slider.png';	
 			
 		  var currentPosition = 0;
 		  var slideWidth = 560;
@@ -17,36 +15,28 @@ $(document).ready(function(){
 		  var numberOfSlides = slides.length;
 		  var interval;
 		  var lectureEnCours = false;
-  // Supprime la scrollbar en JS
   $('#slidesContainer').css('overflow', 'hidden');
 
-  // Attribue  #slideInner  à toutes les div .slide
   slides
     .wrapAll('<div id="slideInner"></div>')
-    // Float left to display horizontally, readjust .slides width
 	.css({
       'float' : 'left',
       'width' : slideWidth
     });
 
-  // Longueur de #slideInner égale au total de la longueur de tous les slides
   $('#slideInner').css('width', slideWidth * numberOfSlides);
 
-  // Insert controls in the DOM
   $('#slideshow')
     .prepend('<span class="control" id="leftControl">Précédent</span>')
     .append('<span class="control" id="rightControl">Suivant</span>');
 
 
   
-  // Hide left arrow control on first load
   manageControls(currentPosition);
 
-  //Crée un écouteur d'évènement de type clic sur les classes .control
   $('.control')
     .bind('click', function(){
 		
-    // Determine la nouvelle position
 	currentPosition = ($(this).attr('id')=='rightControl') ? currentPosition+1 : currentPosition-1;
     
 	if(currentPosition == numberOfSlides && retour == false ){
@@ -54,19 +44,14 @@ $(document).ready(function(){
 		pause();
 	}
 	
-	// Cache ou montre les controles
     manageControls(currentPosition);
-    // Fais bouger le slide
     $('#slideInner').animate({
       'marginLeft' : slideWidth*(-currentPosition)
     },tempsTransition);
   });
 
-  // manageControls: Cache ou montre les flêches de controle en fonction de la position courante
   function manageControls(position){
-    // Cache la fleche "précédent" si on est sur le premier slide
 	if(position==0){ $('#leftControl').hide() } else{ $('#leftControl').show() }
-	// Cache la fleche "suivant" si on est sur le dernier slide (et que le retour automatique n'est pas activé)
     if(position==numberOfSlides-1 && retour == false){
 		$('#rightControl').hide();
 	} else {
@@ -89,7 +74,6 @@ $(document).ready(function(){
    clearInterval(interval);
   }
   
- //Si le diapo est activé 
 if(lectureAutomatique == true){
   start();
 }

@@ -1,8 +1,5 @@
-/** CSS Document --------------------------*/
 
-
-
-#menu /* Ensemble du menu */
+#menu 
 {
 	color: #FFFFCC;  
 	padding-top:0px;
@@ -21,31 +18,19 @@
 	margin-bottom:0px;
 	margin-left:-3px;
 	padding-left:0px;
-	width : 180px; /* largeur */
+	width : 180px; 
 	height:19px;
 	font-size :12px;
-	
-	
 } 
-
-
-
-#menu li a /* Elements des listes*/       
+#menu li a        
 {
-	/* on met une bordure blanche à droite de chaque élément*/ 
-	/* on change le type d'élément, les liens deviennent des balises de type block */
-	 
-	
-	
-	color : #ffffff; /* couleur du texte */
-	
-	/*background-image:url(./images/universite_u.png);*/
+	color : #ffffff; 
 }
 
 
 #menu li a:hover 
 {	
-	color:#D6003D; /* Blanc*/	
+	color:#D6003D; 	
 }
 
 #menu li a.trans{
@@ -59,12 +44,12 @@
 	color:#ff0000;		
 }
 
-/* Sous-listes */
 
-#menu li ul /* Sous-listes */ 
+
+#menu li ul  
 { 
 		display : none;
-		position: relative; /* Position absolue  */ 
+		position: relative;  
         left:159px;
 		margin-left:0px;
 		padding-left:0px; 
@@ -74,7 +59,7 @@
 		
 }
 
-#menu li ul li   /* fond gris des sous menus ou il y le texte avec la ligne rouge */
+#menu li ul li   
 {
 		background-image:url(../images/sousmenu.png);
         width: 182px;
@@ -94,19 +79,19 @@ color : #827d82;
 text-decoration:none;
 font-family:Arial, Helvetica, sans-serif;
 font-size:11px;
-letter-spacing:0.5px; line-height:25px; /* donne la taille du texte et donc son centrage dans la bande grise  */
+letter-spacing:0.5px; line-height:25px; 
  padding-left:3px; 
 }
 
 
-#menu li:hover >ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */ 
+#menu li:hover >ul   
 {
         display:block;    
 	    	color:#D6003D;		
 }
-/*----------------------*/
+
 #bandeau {
-	/*width: 1224px;*/
+	
 	width: 800px;
 	height: 160px;
 	margin-left:124px
@@ -114,10 +99,6 @@ letter-spacing:0.5px; line-height:25px; /* donne la taille du texte et donc son 
 }
 #bandeau_2 {
 	height: 160px;
-	/*background-image:url(images/bandeau_gris.png);
-	background-repeat:repeat-x;*/
-	
-
 }
 #carre_gris {
 	height: 160px;
@@ -135,11 +116,11 @@ letter-spacing:0.5px; line-height:25px; /* donne la taille du texte et donc son 
 	height: 160px;
 	width:124px;
 	
-	/*background-image:url(images/logo.png);*/
+	
 }
 
 #deroulant {
-	/*float: left;*/
+	
 	height: 160px;
 	width:900px;
 	position:relative;

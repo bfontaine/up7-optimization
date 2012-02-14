@@ -1,30 +1,24 @@
-/** 
- * Slideshow style rules.
- */
 #slideshow {
 	
 	margin-top:8px;
 	width:675px;
 	height:226px;
-	background:transparent url(../images/bg_slideshow.jpg) no-repeat 0 0;
+	background:transparent url(../images/slideshow/bg_slideshow.jpg) no-repeat 0 0;
 	position:relative;
 }
 #slideshow #slidesContainer {
   margin:0 auto;
   width:560px;
-  height:226px; /* 263px*/
-  overflow:auto; /* affiche une scrollbar au cas ou */
+  height:226px; 
+  overflow:auto; 
   position:relative;
 }
 #slideshow #slidesContainer .slide {
   margin:0 auto;
-  width:540px; /* reduit de 20 pixels la div #slidesContainer pour permettre d'afficher la barre de scroll */
+  width:540px; 
   height:226px;
 }
 
-/** 
- * Slideshow controls style rules.
- */
 .control {
   display:block;
   width:39px;
@@ -53,27 +47,6 @@
   right:0;
   background:transparent url(img/control_right.jpg) no-repeat 0 0;
 }
-
-/** 
- * Style rules for Demo page
- 
-* {
-  margin:0;
-  padding:0;
-  font:normal 11px Verdana, Geneva, sans-serif;
-  color:#ccc;
-}
-a {
-  color: #fff;
-  font-weight:bold;
-  text-decoration:none;
-}
-a:hover {
-  text-decoration:underline;
-}
-body {
- /* background:url('img/bg_body.jpg') repeat-x #393737;*/
-}*/
 
 #pageContainer {
   margin:0 auto;
@@ -114,85 +87,3 @@ font: 13px Arial, "Times New Roman", Times, serif;
   width:560px;
   height:40px;
 }
-
-/***********
- * Admin
- * ****************/
-/*.ajoutSlide{
-	display:block;
-	background-image:url('img/ajoute_slider.png');
-	width:119px;
-	height:22px;
-	text-indent:-9999px;
-	outline:none;
-}
-.admin{
-	background-image:none;
-}
-
-.admin #pageContainer{
-	width:80%;
-	margin:auto;
-}
-.admin #pageContainer h1{
-	background:transparent url(img/admin.png) no-repeat top left;
-}
-.miniature{
-	height:50px;
-	clear:left;
-	display:block;
-	position:relative;
-	left:80px;
-	height:60px;
-	padding:3px;
-	margin:3px 0px 3px 0px;
-	background-color:#555;
-}
-.supprimer{
-	background: transparent url('img/btn_suppr.png') no-repeat;
-	width:14px;
-	height:15px;
-	display:block;
-	text-indent:-9999px;
-	outline:none;
-	float:right;
-}
-form{
-	display:block;
-	float:left;
-	width:300px;
-}
-fieldset{
-	border:1px solid #525050;
-	padding:7px;
-	margin:3px;
-}
-legend{
-	font-size:1.8em;
-	display:block;
-	margin-left:250px;
-	position:absolute;
-}
-label{
-	display:block;
-	float:left;
-	width:70px;
-	text-align:right;
-	margin:3px;
-}
-button{
-	display:block;
-	clear:left;
-	color:#555;
-	margin-left:80px;
-	
-}
-input,textarea{
-	float:left;
-	width:180px;
-	margin:3px;
-	color:#555;
-}
-textarea{
-	height:100px;
-}*/

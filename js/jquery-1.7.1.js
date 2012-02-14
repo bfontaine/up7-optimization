@@ -15,13 +15,11 @@
  */
 (function( window, undefined ) {
 
-// Use the correct document accordingly with window argument (sandbox)
 var document = window.document,
 	navigator = window.navigator,
 	location = window.location;
 var jQuery = (function() {
 
-// Define a local copy of jQuery
 var jQuery = function( selector, context ) {
 		// The jQuery object is actually just the init constructor 'enhanced'
 		return new jQuery.fn.init( selector, context, rootjQuery );
@@ -318,7 +316,6 @@ jQuery.fn = jQuery.prototype = {
 	splice: [].splice
 };
 
-// Give the init function the jQuery prototype for later instantiation
 jQuery.fn.init.prototype = jQuery.fn;
 
 jQuery.extend = jQuery.fn.extend = function() {
@@ -891,7 +888,6 @@ jQuery.extend({
 	browser: {}
 });
 
-// Populate the class2type map
 jQuery.each("Boolean Number String Function Array Date RegExp Object".split(" "), function(i, name) {
 	class2type[ "[object " + name + "]" ] = name.toLowerCase();
 });
@@ -902,21 +898,17 @@ if ( browserMatch.browser ) {
 	jQuery.browser.version = browserMatch.version;
 }
 
-// Deprecated, use jQuery.browser.webkit instead
 if ( jQuery.browser.webkit ) {
 	jQuery.browser.safari = true;
 }
 
-// IE doesn't match non-breaking spaces with \s
 if ( rnotwhite.test( "\xA0" ) ) {
 	trimLeft = /^[\s\xA0]+/;
 	trimRight = /[\s\xA0]+$/;
 }
 
-// All jQuery objects should point back to these
 rootjQuery = jQuery(document);
 
-// Cleanup functions for the document ready method
 if ( document.addEventListener ) {
 	DOMContentLoaded = function() {
 		document.removeEventListener( "DOMContentLoaded", DOMContentLoaded, false );
@@ -933,7 +925,6 @@ if ( document.addEventListener ) {
 	};
 }
 
-// The DOM ready check for Internet Explorer
 function doScrollCheck() {
 	if ( jQuery.isReady ) {
 		return;
@@ -957,10 +948,8 @@ return jQuery;
 })();
 
 
-// String to Object flags format cache
 var flagsCache = {};
 
-// Convert String-formatted flags into Object-formatted ones and store in cache
 function createFlags( flags ) {
 	var object = flagsCache[ flags ] = {},
 		i, length;
@@ -1958,7 +1947,6 @@ function dataAttr( elem, key, data ) {
 	return data;
 }
 
-// checks a cache object for emptiness
 function isEmptyDataObject( obj ) {
 	for ( var name in obj ) {
 
@@ -2637,10 +2625,8 @@ jQuery.extend({
 	}
 });
 
-// Add the tabIndex propHook to attrHooks for back-compat (different case is intentional)
 jQuery.attrHooks.tabindex = jQuery.propHooks.tabIndex;
 
-// Hook for boolean attributes
 boolHook = {
 	get: function( elem, name ) {
 		// Align boolean attributes with corresponding properties
@@ -2671,7 +2657,6 @@ boolHook = {
 	}
 };
 
-// IE6/7 do not support getting/setting some attributes with get/setAttribute
 if ( !getSetAttribute ) {
 
 	fixSpecified = {
@@ -2730,7 +2715,6 @@ if ( !getSetAttribute ) {
 }
 
 
-// Some attributes require a special call on IE
 if ( !jQuery.support.hrefNormalized ) {
 	jQuery.each([ "href", "src", "width", "height" ], function( i, name ) {
 		jQuery.attrHooks[ name ] = jQuery.extend( jQuery.attrHooks[ name ], {
@@ -2755,8 +2739,6 @@ if ( !jQuery.support.style ) {
 	};
 }
 
-// Safari mis-reports the default selected property of an option
-// Accessing the parent's selectedIndex property fixes it
 if ( !jQuery.support.optSelected ) {
 	jQuery.propHooks.selected = jQuery.extend( jQuery.propHooks.selected, {
 		get: function( elem ) {
@@ -2775,12 +2757,10 @@ if ( !jQuery.support.optSelected ) {
 	});
 }
 
-// IE6/7 call enctype encoding
 if ( !jQuery.support.enctype ) {
 	jQuery.propFix.enctype = "encoding";
 }
 
-// Radios and checkboxes getter/setter
 if ( !jQuery.support.checkOn ) {
 	jQuery.each([ "radio", "checkbox" ], function() {
 		jQuery.valHooks[ this ] = {
@@ -3413,8 +3393,6 @@ jQuery.event = {
 	}
 };
 
-// Some plugins are using, but it's undocumented/deprecated and will be removed.
-// The 1.7 special event interface should provide all the hooks needed now.
 jQuery.event.handle = jQuery.event.dispatch;
 
 jQuery.removeEvent = document.removeEventListener ?
@@ -3469,8 +3447,6 @@ function returnTrue() {
 	return true;
 }
 
-// jQuery.Event is based on DOM3 Events as specified by the ECMAScript Language Binding
-// http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
 jQuery.Event.prototype = {
 	preventDefault: function() {
 		this.isDefaultPrevented = returnTrue;
@@ -3512,7 +3488,6 @@ jQuery.Event.prototype = {
 	isImmediatePropagationStopped: returnFalse
 };
 
-// Create mouseenter/leave events using mouseover/out and event-time checks
 jQuery.each({
 	mouseenter: "mouseover",
 	mouseleave: "mouseout"
@@ -3540,7 +3515,6 @@ jQuery.each({
 	};
 });
 
-// IE submit delegation
 if ( !jQuery.support.submitBubbles ) {
 
 	jQuery.event.special.submit = {
@@ -3580,7 +3554,6 @@ if ( !jQuery.support.submitBubbles ) {
 	};
 }
 
-// IE change delegation and checkbox/radio fix
 if ( !jQuery.support.changeBubbles ) {
 
 	jQuery.event.special.change = {
@@ -3638,7 +3611,6 @@ if ( !jQuery.support.changeBubbles ) {
 	};
 }
 
-// Create "bubbling" focus and blur events
 if ( !jQuery.support.focusinBubbles ) {
 	jQuery.each({ focus: "focusin", blur: "focusout" }, function( orig, fix ) {
 
@@ -3867,10 +3839,6 @@ var chunker = /((?:\((?:\([^()]+\)|[^()]+)+\)|\[(?:\[[^\[\]]*\]|['"][^'"]*['"]|[
 	rReturn = /\r\n/g,
 	rNonWord = /\W/;
 
-// Here we check if the JavaScript engine is using some sort of
-// optimization where it does not always call our comparision
-// function. If that is the case, discard the hasDuplicate value.
-//   Thus far that includes Google Chrome.
 [0, 0].sort(function() {
 	baseHasDuplicate = false;
 	return 0;
@@ -4769,14 +4737,9 @@ var makeArray = function( array, results ) {
 	return array;
 };
 
-// Perform a simple check to determine if the browser is capable of
-// converting a NodeList to an array using builtin methods.
-// Also verifies that the returned array holds DOM nodes
-// (which is not the case in the Blackberry browser)
 try {
 	Array.prototype.slice.call( document.documentElement.childNodes, 0 )[0].nodeType;
 
-// Provide a fallback method if it does not work
 } catch( e ) {
 	makeArray = function( array, results ) {
 		var i = 0,
@@ -4898,8 +4861,6 @@ if ( document.documentElement.compareDocumentPosition ) {
 	};
 }
 
-// Check to see if the browser returns elements by name when
-// querying by getElementById (and provide a workaround)
 (function(){
 	// We're going to inject a fake input element with a specified name
 	var form = document.createElement("div"),
@@ -5285,8 +5246,6 @@ var posProcess = function( selector, context, seed ) {
 	return Sizzle.filter( later, tmpSet );
 };
 
-// EXPOSE
-// Override sizzle attribute retrieval
 Sizzle.attr = jQuery.attr;
 Sizzle.selectors.attrMap = {};
 jQuery.find = Sizzle;
@@ -5469,8 +5428,6 @@ jQuery.fn.extend({
 	}
 });
 
-// A painfully simple check to see if an element is disconnected
-// from a document (should be improved, where feasible).
 function isDisconnected( node ) {
 	return !node || !node.parentNode || node.parentNode.nodeType === 11;
 }
@@ -5587,7 +5544,6 @@ jQuery.extend({
 	}
 });
 
-// Implement the identical functionality for filter and not
 function winnow( elements, qualifier, keep ) {
 
 	// Can't pass null or undefined to indexOf in Firefox 4
@@ -5670,7 +5626,6 @@ wrapMap.optgroup = wrapMap.option;
 wrapMap.tbody = wrapMap.tfoot = wrapMap.colgroup = wrapMap.caption = wrapMap.thead;
 wrapMap.th = wrapMap.td;
 
-// IE can't serialize <link> and <script> tags normally
 if ( !jQuery.support.htmlSerialize ) {
 	wrapMap._default = [ 1, "div<div>", "</div>" ];
 }
@@ -6172,13 +6127,11 @@ function getAll( elem ) {
 	}
 }
 
-// Used in clean, fixes the defaultChecked property
 function fixDefaultChecked( elem ) {
 	if ( elem.type === "checkbox" || elem.type === "radio" ) {
 		elem.defaultChecked = elem.checked;
 	}
 }
-// Finds all inputs and passes them to fixDefaultChecked
 function findInputs( elem ) {
 	var nodeName = ( elem.nodeName || "" ).toLowerCase();
 	if ( nodeName === "input" ) {
@@ -6603,7 +6556,6 @@ jQuery.extend({
 	}
 });
 
-// DEPRECATED, Use jQuery.css() instead
 jQuery.curCSS = jQuery.css;
 
 jQuery.each(["height", "width"], function( i, name ) {
@@ -6876,8 +6828,6 @@ var r20 = /%20/g,
 	// Avoid comment-prolog char sequence (#10098); must appease lint and evade compression
 	allTypes = ["*/"] + ["*"];
 
-// #8138, IE may throw an exception when accessing
-// a field from window.location if document.domain has been set
 try {
 	ajaxLocation = location.href;
 } catch( e ) {
@@ -6888,10 +6838,8 @@ try {
 	ajaxLocation = ajaxLocation.href;
 }
 
-// Segment location into parts
 ajaxLocParts = rurl.exec( ajaxLocation.toLowerCase() ) || [];
 
-// Base "constructor" for jQuery.ajaxPrefilter and jQuery.ajaxTransport
 function addToPrefiltersOrTransports( structure ) {
 
 	// dataTypeExpression is optional and defaults to "*"
@@ -6927,7 +6875,6 @@ function addToPrefiltersOrTransports( structure ) {
 	};
 }
 
-// Base inspection function for prefilters and transports
 function inspectPrefiltersOrTransports( structure, options, originalOptions, jqXHR,
 		dataType /* internal */, inspected /* internal */ ) {
 
@@ -6967,9 +6914,6 @@ function inspectPrefiltersOrTransports( structure, options, originalOptions, jqX
 	return selection;
 }
 
-// A special extend for ajax options
-// that takes "flat" options (not to be deep extended)
-// Fixes #9887
 function ajaxExtend( target, src ) {
 	var key, deep,
 		flatOptions = jQuery.ajaxSettings.flatOptions || {};
@@ -7087,7 +7031,6 @@ jQuery.fn.extend({
 	}
 });
 
-// Attach a bunch of functions for handling common AJAX events
 jQuery.each( "ajaxStart ajaxStop ajaxComplete ajaxError ajaxSuccess ajaxSend".split( " " ), function( i, o ){
 	jQuery.fn[ o ] = function( f ){
 		return this.on( o, f );
@@ -7659,8 +7602,6 @@ function buildParams( prefix, obj, traditional, add ) {
 	}
 }
 
-// This is still on the jQuery object... for now
-// Want to move this to jQuery.ajax some day
 jQuery.extend({
 
 	// Counter for holding the number of active queries
@@ -7741,7 +7682,6 @@ function ajaxHandleResponses( s, jqXHR, responses ) {
 	}
 }
 
-// Chain conversions given the request and the original response
 function ajaxConvert( s, response ) {
 
 	// Apply the dataFilter if provided
@@ -7832,7 +7772,6 @@ function ajaxConvert( s, response ) {
 var jsc = jQuery.now(),
 	jsre = /(\=)\?(&|$)|\?\?/i;
 
-// Default jsonp settings
 jQuery.ajaxSetup({
 	jsonp: "callback",
 	jsonpCallback: function() {
@@ -7840,7 +7779,6 @@ jQuery.ajaxSetup({
 	}
 });
 
-// Detect, normalize options and install callbacks for jsonp requests
 jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
 
 	var inspectData = s.contentType === "application/x-www-form-urlencoded" &&
@@ -7908,7 +7846,6 @@ jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
 
 
 
-// Install script dataType
 jQuery.ajaxSetup({
 	accepts: {
 		script: "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript"
@@ -7924,7 +7861,6 @@ jQuery.ajaxSetup({
 	}
 });
 
-// Handle cache's special case and global
 jQuery.ajaxPrefilter( "script", function( s ) {
 	if ( s.cache === undefined ) {
 		s.cache = false;
@@ -7935,7 +7871,6 @@ jQuery.ajaxPrefilter( "script", function( s ) {
 	}
 });
 
-// Bind script tag hack transport
 jQuery.ajaxTransport( "script", function(s) {
 
 	// This transport only deals with cross domain requests
@@ -8007,7 +7942,6 @@ var // #5280: Internet Explorer will keep connections alive if we don't abort on
 	xhrId = 0,
 	xhrCallbacks;
 
-// Functions to create xhrs
 function createStandardXHR() {
 	try {
 		return new window.XMLHttpRequest();
@@ -8020,8 +7954,6 @@ function createActiveXHR() {
 	} catch( e ) {}
 }
 
-// Create the request object
-// (This is still attached to ajaxSettings for backward compatibility)
 jQuery.ajaxSettings.xhr = window.ActiveXObject ?
 	/* Microsoft failed to properly
 	 * implement the XMLHttpRequest in IE7 (can't request local files),
@@ -8035,7 +7967,6 @@ jQuery.ajaxSettings.xhr = window.ActiveXObject ?
 	// For all other browsers, use the standard XMLHttpRequest object
 	createStandardXHR;
 
-// Determine support properties
 (function( xhr ) {
 	jQuery.extend( jQuery.support, {
 		ajax: !!xhr,
@@ -8043,7 +7974,6 @@ jQuery.ajaxSettings.xhr = window.ActiveXObject ?
 	});
 })( jQuery.ajaxSettings.xhr() );
 
-// Create transport if the browser can provide an xhr
 if ( jQuery.support.ajax ) {
 
 	jQuery.ajaxTransport(function( s ) {
@@ -8530,7 +8460,6 @@ jQuery.fn.extend({
 
 });
 
-// Animations created synchronously will run synchronously
 function createFxNow() {
 	setTimeout( clearFxNow, 0 );
 	return ( fxNow = jQuery.now() );
@@ -8540,7 +8469,6 @@ function clearFxNow() {
 	fxNow = undefined;
 }
 
-// Generate parameters to create a standard animation
 function genFx( type, num ) {
 	var obj = {};
 
@@ -8551,7 +8479,6 @@ function genFx( type, num ) {
 	return obj;
 }
 
-// Generate shortcuts for custom animations
 jQuery.each({
 	slideDown: genFx( "show", 1 ),
 	slideUp: genFx( "hide", 1 ),
@@ -8831,8 +8758,6 @@ jQuery.extend( jQuery.fx, {
 	}
 });
 
-// Adds width/height step functions
-// Do not set anything below 0
 jQuery.each([ "width", "height" ], function( i, prop ) {
 	jQuery.fx.step[ prop ] = function( fx ) {
 		jQuery.style( fx.elem, prop, Math.max(0, fx.now) + fx.unit );
@@ -8847,7 +8772,6 @@ if ( jQuery.expr && jQuery.expr.filters ) {
 	};
 }
 
-// Try to restore the default display value of an element
 function defaultDisplay( nodeName ) {
 
 	if ( !elemdisplay[ nodeName ] ) {
@@ -9117,7 +9041,6 @@ jQuery.fn.extend({
 });
 
 
-// Create scrollLeft and scrollTop methods
 jQuery.each( ["Left", "Top"], function( i, name ) {
 	var method = "scroll" + name;
 
@@ -9165,10 +9088,6 @@ function getWindow( elem ) {
 			false;
 }
 
-
-
-
-// Create width, height, innerHeight, innerWidth, outerHeight and outerWidth methods
 jQuery.each([ "Height", "Width" ], function( i, name ) {
 
 	var type = name.toLowerCase();
@@ -9224,14 +9143,12 @@ jQuery.each([ "Height", "Width" ], function( i, name ) {
 				elem.body["offset" + name], elem.documentElement["offset" + name]
 			);
 
-		// Get or set width or height on the element
 		} else if ( size === undefined ) {
 			var orig = jQuery.css( elem, type ),
 				ret = parseFloat( orig );
 
 			return jQuery.isNumeric( ret ) ? ret : orig;
 
-		// Set the width or height on the element (default to pixels if value is unitless)
 		} else {
 			return this.css( type, typeof size === "string" ? size : size + "px" );
 		}
@@ -9242,21 +9159,8 @@ jQuery.each([ "Height", "Width" ], function( i, name ) {
 
 
 
-// Expose jQuery to the global object
 window.jQuery = window.$ = jQuery;
 
-// Expose jQuery as an AMD module, but only for AMD loaders that
-// understand the issues with loading multiple versions of jQuery
-// in a page that all might call define(). The loader will indicate
-// they have special allowances for multiple jQuery versions by
-// specifying define.amd.jQuery = true. Register as a named module,
-// since jQuery can be concatenated with other files that may use define,
-// but not use a proper concatenation script that understands anonymous
-// AMD modules. A named AMD is safest and most robust way to register.
-// Lowercase jquery is used because AMD module names are derived from
-// file names, and jQuery is normally delivered in a lowercase file name.
-// Do this after creating the global so that if an AMD module wants to call
-// noConflict to hide this version of jQuery, it will work.
 if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 	define( "jquery", [], function () { return jQuery; } );
 }

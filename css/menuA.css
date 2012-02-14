@@ -1,8 +1,8 @@
-/** CSS Document --------------------------*/
 
 
 
-#menuA /* Ensemble du menu */
+
+#menuA 
 {
 	color: #FFFFCC;  
 	padding-top:0px;
@@ -22,7 +22,7 @@
 	margin-bottom:0px;
 	margin-left:0px;
 	padding-left:0px;
-	width : 145px; /* largeur */
+	width : 145px; 
 	height:29px;
 	font-size :12px;	
 } 
@@ -31,22 +31,22 @@
 }
 
 
-#menuA li a /* Elements des listes*/       
+#menuA li a        
 {
-	/* on met une bordure blanche à droite de chaque élément*/ 
-	/* on change le type d'élément, les liens deviennent des balises de type block */
+	 
+	
 	 
 	
 	
-	color : #ffffff; /* couleur du texte */
+	color : #ffffff; 
 	
-	/*background-image:url(./images/universite_u.png);*/
+	
 }
 
 
 #menuA li a:hover 
 {	
-	color:#D6003D; /* Blanc*/	
+	color:#D6003D; 	
 }
 
 #menuA li a.trans{
@@ -60,13 +60,13 @@
 	color:#ff0000;		
 }
 
-/* Sous-listes */
 
-#menuA li ul /* Sous-listes */ 
+
+#menuA li ul  
 {
 	background-color:#899090;
 		display : none;
-		position: relative; /* Position absolue  */ 
+		position: relative;  
         left:0px;
 		margin-top:7px;
 		margin-left:0px;
@@ -77,7 +77,7 @@
 		
 }
 
-#menuA li ul li   /* fond gris des sous menus ou il y le texte avec la ligne rouge */
+#menuA li ul li   
 {
 		background-image:url(images/sousmenu.png);
         width: 145px;
@@ -101,32 +101,18 @@ text-decoration:none;
 font-family:Arial, Helvetica, sans-serif;
 font-size:11px;
 letter-spacing:0.5px; 
-line-height:10px; /* donne la taille du texte et donc son centrage dans la bande grise  */
+line-height:10px; 
  padding-left:3px; 
 }
 
 
-#menuA li:hover >ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */ 
+#menuA li:hover >ul   
 {
         display:block;
 		background-color:#333333;    
 	    	color:#D6003D;		
 }
-/*----------------------*/
 
-
-/*#deroulant {
-	/*float: left;
-	height: 160px;
-	width:900px;
-	position:relative;
-	left:124px; 
-	top:0px; 
-	z-index:2;
-	background-image:url(images/bande_menus.png);
-	
-	}
-*/	
 	
 #spacer {
   clear: both;

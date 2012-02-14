@@ -22,8 +22,6 @@
 				$(obj).find("li").hide();
 				$(obj).find("li:first-child").addClass("active").fadeIn(options.animationSpeed);
 				
-				// Controls
-				
 				if(options.controls)
 				{
 					$(obj).after("<div class='diaporama_controls'><div class='btns'><a href='#' class='pause'>Pause</a></div></div>");
@@ -58,7 +56,6 @@
 					);
 				}
 				
-				// Affiche l'élément suivant
 				
 				function nextElt(options)
 				{
@@ -77,7 +74,6 @@
 					}
 				}
 				
-				// Affiche l'élément précédent
 				
 				function prevElt(options)
 				{

@@ -1,4 +1,3 @@
-// JavaScript Document
 sfHover = function() {
         var sfEls = document.getElementById("menuA").getElementsByTagName("LI");
         for (var i=0; i<sfEls.length; i++) {
