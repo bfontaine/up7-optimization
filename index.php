@@ -17,6 +17,7 @@
                 <link href="css/menu.css" rel="stylesheet" type="text/css">
                 <link rel="stylesheet" href="css/design.css" media="all">
                 <link href="css/menuA.css" rel="stylesheet" type="text/css">
+
                 <title>Accueil - Université Paris Diderot - Paris 7</title>
 
                 <meta http-equiv="Content-Style-Type" content="text/css">
@@ -32,7 +33,7 @@
                                 </a>
                         </div>
 
-                        <div id="bandeau"><img src="images/accueil_3.png" height="160"/></div> 
+                        <div id="bandeau"><?php echo('<img src="images/accueil_'.mt_rand(1,5).'.png" height="160"/>'); ?></div> 
                         <div id="bandeau_2">
 
                                 <div id="deroulant">
