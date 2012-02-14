@@ -9,6 +9,7 @@ X : Done
 [X] Merge similar JS scripts
 [X] Optimize JS scripts
 [X] minify JS scripts
+[X] Use gzip compression (except for binary files)
 [ ] Delete unused CSS instructions
 [ ] Merge similar CSS files
 [ ] Optimize CSS (merge similar rules, use #XYZ instead of #XXYYZZ, etc)
@@ -16,7 +17,6 @@ X : Done
 [ ] Use HTML5 new tags & attributes
 [ ] Use CSS where there's no need of image
 [ ] Use CSS Sprites where needed
-[ ] Use gzip compression
 [ ] Optimize images (delete useless EXIF data)
 [ ] Write dimensions of images in the HTML source code
 [ ] Use subdomains for static images
