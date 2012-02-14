@@ -2,8 +2,8 @@
 X : Done
 
 
-[~] Get all css/js/image files
-[~] Re-create an file tree
+[X] Get all css/js/image files
+[X] Re-create an file tree
 [X] Delete useless comments (js/css/html)
 [ ] Delete unused JS functions
 [ ] Delete unused CSS instructions
@@ -22,5 +22,5 @@ X : Done
 [ ] Make valid HTML/CSS
 [ ] Use WCAG 2.0 recommendations (≥ level A)
 
-[ ] Display a random image at the top of the site (like the original)
-[ ] Use a PHP session (to have a cookie, like the original)
+[X] Display a random image at the top of the site (like the original)
+[X] Use a PHP session (to have a cookie, like the original)
