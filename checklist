@@ -5,13 +5,14 @@ X : Done
 [X] Get all css/js/image files
 [X] Re-create an file tree
 [X] Delete useless comments (js/css/html)
-[ ] Delete unused JS functions
+[X] Delete unused JS functions
+[X] Merge similar JS scripts
+[X] Optimize JS scripts
+[X] minify JS scripts
 [ ] Delete unused CSS instructions
 [ ] Merge similar CSS files
-[ ] Merge similar JS scripts
-[ ] Optimize JS scripts
 [ ] Optimize CSS (merge similar rules, use #XYZ instead of #XXYYZZ, etc)
-[ ] minify CSS/JS files
+[ ] minify CSS files
 [ ] Use HTML5 new tags & attributes
 [ ] Use CSS where there's no need of image
 [ ] Use CSS Sprites where needed
@@ -21,6 +22,7 @@ X : Done
 [ ] Use subdomains for static images
 [ ] Make valid HTML/CSS
 [ ] Use WCAG 2.0 recommendations (≥ level A)
+[ ] Use UTF-8 instead of ISO-8859-1
 
 [X] Display a random image at the top of the site (like the original)
 [X] Use a PHP session (to have a cookie, like the original)
