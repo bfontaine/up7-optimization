@@ -40,12 +40,12 @@
 #leftControl {
   top:0;
   left:0;
-  background:transparent url(img/control_left.jpg) no-repeat 0 0;
+  background:transparent url(../images/slideshow/control_left.jpg) no-repeat 0 0;
 }
 #rightControl {
   top:0;
   right:0;
-  background:transparent url(img/control_right.jpg) no-repeat 0 0;
+  background:transparent url(../images/slideshow/control_right.jpg) no-repeat 0 0;
 }
 
 #pageContainer {
