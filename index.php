@@ -22,6 +22,7 @@
                 <meta name="description" content="Université Paris Diderot, Paris 7, pluridisciplinaire, Sciences, Médecine, Odontologie, Lettres, Langues, Sciences Humaines">
                 <meta name="keywords" content="Université,Diderot,Paris,7,enseignement supérieur,formation,continue,sciences,santé,sociales,humaines,langues">
         </head>
+<?php flush(); ?>
         <body>
 
                 <div id="cadre">
