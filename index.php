@@ -219,19 +219,19 @@
 
                                                         <div style="margin-top:10px; margin-bottom:0px; font-size:13px; padding-left:36px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:0.5; color:#D6003D; line-height:18px;">Université Paris Diderot</div>
                                                         <div style=" font-size:13px;  padding-left:36px;  font-family:Arial, Helvetica, sans-serif; letter-spacing:0.5; color:#827D82; text-decoration:none; line-height:18px;">
-                                                                5 rue Thomas-Mann<br>
-                                                                75013 Paris<br>
-                                                                Tél. +33 (0)1 57 27 57 27<br>
+                                                                5 rue Thomas-Mann<br/>
+                                                                75013 Paris<br/>
+                                                                Tél. +33 (0)1 57 27 57 27<br/>
                                                         </div>
                                                         <div style="margin-top:20px; margin-left:auto; margin-right:auto; width:150px">
                                                                 <a href="http://www.sorbonne-paris-cite.fr/"><img src="images/logo-Sorbonne-Paris-Cite.png"/></a>
                                                         </div>
 
-                                                        <div class="encadre"><br>
+                                                        <div class="encadre"><br/>
                                                                 <p align="center">
                                                                 <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recrutement&np=ACCUEIL&g=m"><img src="images/stickerrecrutement_3.png" border="1" alt="recrutement"/></a>
                                                                 </p></div>
-                                                                <div id="cleardiv"></div><br> 
+                                                                <div id="cleardiv"></div><br/> 
                                                                 <div id="cleardiv"></div>
                                                         </div>
 
@@ -288,13 +288,13 @@
                                                                         <div id="cleardiv"></div>
                                                                         <div id="colloque"> 
                                                                                 <div class="titre">
-                                                                                        <h2 class="titre1"><a class="titre1" href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recherche&np=CONGCOLL">Colloques <br><br>Congrès<br><br>Séminaires</a></h2>
+                                                                                        <h2 class="titre1"><a class="titre1" href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recherche&np=CONGCOLL">Colloques <br/><br/>Congrès<br/><br/>Séminaires</a></h2>
                                                                                 </div>
 
                                                                                 <div class="contenu">
 
                                                                                         <h2> <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3959">Colloque international de linguistique japonaise</a></h2>
-                                                                                        <h3> du 13/02/12<br>au 10/03/12</h3>
+                                                                                        <h3> du 13/02/12<br/>au 10/03/12</h3>
 
                                                                                 </div>
                                                                                 <div class="contenu">
@@ -306,13 +306,13 @@
                                                                                 <div class="contenu">
 
                                                                                         <h2> <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3912">Conférence en finance quantitative et statistique</a></h2>
-                                                                                        <h3> du 01/03/12<br>au 02/03/12</h3>
+                                                                                        <h3> du 01/03/12<br/>au 02/03/12</h3>
 
                                                                                 </div>
                                                                                 <div class="contenu">
 
                                                                                         <h2> <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3942"> Colloque international transdisciplinaire</a></h2>
-                                                                                        <h3> du 15/03/12<br>au 17/03/12</h3>
+                                                                                        <h3> du 15/03/12<br/>au 17/03/12</h3>
 
                                                                                 </div>
 
@@ -329,17 +329,17 @@
                                                                                                                                         <td><img width="120" height="133" src="images/elections.gif" alt=""/></td>
                                                                                                                                         <td>&nbsp;</td>
                                                                                                                                         <td>
-                                                                                                                                                <div class="paragraph5"><span style="color: rgb(0, 0, 0);"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12&g=m"><span style="color: rgb(0, 0, 0);"><strong><span style="font-size: small;">Candidats aux <br>
-                                                                                                                                                                                                élections des <br>
-                                                                                                                                                                                                personnels aux <br>
-                                                                                                                                                                                                CA,&nbsp;CEVU, CS</span></strong></span></a></span><span style="font-size: small;"><br>
-                                                                                                                                                                <br>
+                                                                                                                                                <div class="paragraph5"><span style="color: rgb(0, 0, 0);"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12&g=m"><span style="color: rgb(0, 0, 0);"><strong><span style="font-size: small;">Candidats aux <br/>
+                                                                                                                                                                                                élections des <br/>
+                                                                                                                                                                                                personnels aux <br/>
+                                                                                                                                                                                                CA,&nbsp;CEVU, CS</span></strong></span></a></span><span style="font-size: small;"><br/>
+                                                                                                                                                                <br/>
                                                                                                                                                 </span></div>
-                                                                                                                                                <div class="paragraph5"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12_MED&g=m"><span style="color: rgb(0, 0, 0);"><strong><span style="font-size: small;">Candidats aux <br>
-                                                                                                                                                                                        élections des<br>
-                                                                                                                                                                                        personnels <br>
-                                                                                                                                                                                        UFR&nbsp;de Médecine</span></strong></span></a><span style="font-size: small;"><br>
-                                                                                                                                                                                </span><a href="http://www.univ-paris-diderot.fr/DocumentsFCK/elections/File/ETUD_USAGERS_2012/resultats/IUH%20pers.pdf"><strong><span style="font-size: x-small;"><br>
+                                                                                                                                                <div class="paragraph5"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12_MED&g=m"><span style="color: rgb(0, 0, 0);"><strong><span style="font-size: small;">Candidats aux <br/>
+                                                                                                                                                                                        élections des<br/>
+                                                                                                                                                                                        personnels <br/>
+                                                                                                                                                                                        UFR&nbsp;de Médecine</span></strong></span></a><span style="font-size: small;"><br/>
+                                                                                                                                                                                </span><a href="http://www.univ-paris-diderot.fr/DocumentsFCK/elections/File/ETUD_USAGERS_2012/resultats/IUH%20pers.pdf"><strong><span style="font-size: x-small;"><br/>
                                                                                                                                                 </span></strong></a></div>
                                                                                                                                         </td>
                                                                                                                                 </tr>
@@ -455,11 +455,11 @@
 
                                                                                                 <div class="boiter">
 
-                                                                                                        <ul> <li><img src="images/page-0001.jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_etudiant/index.html" target="_blank">Guide de l'étudiante<br> et de l'étudiant<br>Edition 2011-2012</a></li></ul>
+                                                                                                        <ul> <li><img src="images/page-0001.jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_etudiant/index.html" target="_blank">Guide de l'étudiante<br/> et de l'étudiant<br/>Edition 2011-2012</a></li></ul>
 
-                                                                                                        <ul> <li><img src="images/page-0001(1).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_ang/index.html" target="_blank">Guide international de l'étudiant<br>version anglaise</a></li></ul>
+                                                                                                        <ul> <li><img src="images/page-0001(1).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_ang/index.html" target="_blank">Guide international de l'étudiant<br/>version anglaise</a></li></ul>
 
-                                                                                                        <ul> <li><img src="images/page-0001(2).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_fra/index.html" target="_blank">Guide international de l'étudiant<br>version française</a></li></ul>
+                                                                                                        <ul> <li><img src="images/page-0001(2).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_fra/index.html" target="_blank">Guide international de l'étudiant<br/>version française</a></li></ul>
 
                                                                                                 </div>
 
