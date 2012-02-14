@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 
 	$(".diaporama").diaporama({
 		animationSpeed: "slow",
@@ -24,5 +24,4 @@ $(document).ready(function(){
 	});
 
 });
-
-
+*/

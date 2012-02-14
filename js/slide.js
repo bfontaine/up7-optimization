@@ -6,8 +6,8 @@ $(document).ready(function(){
 		  	var tempsAttente = 6000;
 			
 		  var icones = new Array();
-		  		icones['play'] = '../images/slideshow/play_slider.png';
-		  		icones['pause'] = '../images/slideshow/pause_slider.png';	
+		  		icones['play'] = 'images/slideshow/play_slider.png';
+		  		icones['pause'] = 'images/slideshow/pause_slider.png';	
 			
 		  var currentPosition = 0;
 		  var slideWidth = 560;
