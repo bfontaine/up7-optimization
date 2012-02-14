@@ -4,20 +4,18 @@
         <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
-                <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-                <script type="text/javascript" src="js/jquery.diaporama.js"></script>
-                <script type="text/javascript" src="js/script.js"></script>
-                <script type="text/javascript" src="js/menu.js"></script>
-                <script type="text/javascript" src="js/slide.js"></script>
-                <script type="application/javascript" src="js/menuA.js"></script>
+                <script src="js/jquery-1.7.1.min.js"></script>
+                <script src="js/menu.js"></script>
+                <script src="js/slide.js"></script>
+                <script src="js/menuA.js"></script>
 
-                <link href="css/commun.css" rel="stylesheet" type="text/css">
-                <link href="css/site.css" rel="stylesheet" type="text/css">
-                <link href="css/site(1).css" rel="stylesheet" type="text/css">
-                <link href="css/sitefr.css" rel="stylesheet" type="text/css">
-                <link href="css/menu.css" rel="stylesheet" type="text/css">
-                <link rel="stylesheet" href="css/design.css" media="all">
-                <link href="css/menuA.css" rel="stylesheet" type="text/css">
+                <link href="css/commun.css" rel="stylesheet" type="text/css"/>
+                <link href="css/site.css" rel="stylesheet" type="text/css"/>
+                <link href="css/site(1).css" rel="stylesheet" type="text/css"/>
+                <link href="css/sitefr.css" rel="stylesheet" type="text/css"/>
+                <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+                <link rel="stylesheet" href="css/design.css" media="all"/>
+                <link href="css/menuA.css" rel="stylesheet" type="text/css"/>
 
                 <title>Accueil - Université Paris Diderot - Paris 7</title>
 
