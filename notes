@@ -1,13 +1,26 @@
-Optimize .png :
-        $> pngcrush -rem -alla -reduce -brute in.png out.png    
-        $> optipng -o7 -out out.png in.png
+== Optimize .png ==
 
-Optimize .jpg :
-        $> jpegtran -copy none -optimize -perfect in.jpg > out.jpg 
+    $> pngcrush -rem -alla -reduce -brute in.png out.png    
+    $> optipng -o7 -out out.png in.png
 
-Resize images :
-        $> convert in.jpg -resize $WIDTHx$HEIGHT out.jpg
 
+== Optimize .jpg ==
+
+    $> jpegtran -copy none -optimize -perfect in.jpg > out.jpg 
+
+Replace $PERCENTAGE by the percentage of initial quality (ex: 80).
+This is *not* loseless :
+    $> convert in.jpg -quality $PERCENTAGE out.jpg
+
+
+== Resize images ==
+
+Replace $WIDTH by the new image's width (same for $HEIGHT). The
+    image is scaled, not resized.
+    $> convert in.jpg -resize $WIDTHx$HEIGHT out.jpg
+
+
+== Static Subdomains ==
 Images :
     *.png        -> static1.bfontaine.net/up7opt/
     *.jpg, *.gif -> static2.bfontaine.net/up7opt/

@@ -27,7 +27,7 @@ X : Done
 [ ] minify CSS files
 [ ] Remove deprecated HTML attributes (like 'border')
 [ ] Use HTML5 doctype, new tags & attributes
-[ ] Use CSS Sprites where needed
+[ ] Use CSS Sprites where needed (ex: english/french/spanish/chinese flags)
 [ ] Make valid HTML/CSS
 [ ] Use WCAG 2.0 recommendations (≥ level A)
 [ ] Use UTF-8 instead of ISO-8859-1
