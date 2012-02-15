@@ -211,7 +211,7 @@
         <div style="margin-top:20px; margin-left:auto; margin-right:auto; width:150px">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ligne" href="http://fr-fr.facebook.com/univparisdiderot" title="page FaceBook Paris Diderot"><img src="images/faceBook.png" alt="FaceBook" border="0" align="middle" width="18" height="18" /></a>
         <a class="ligne" href="http://twitter.com/#ParisDiderot" title="Twitter">
-        <img src="images/twitter.png" alt="Suivez Paris Diderot sur Twitter" border="0" align="middle" heigt="20" width="20" /></a>
+        <img src="images/twitter.png" alt="Suivez Paris Diderot sur Twitter" border="0" align="middle" height="20" width="20" /></a>
 
         <a class="ligne" href="http://www.univ-paris-diderot.fr/universite/rssActu1.php" title="Syndiquer tout le site">
         <img src="images/feed.png" alt="Fil Rss du site" border="0" align="middle" height="24" width="24"/></a>
@@ -262,7 +262,7 @@
         </div><div class="slide" style="float: left; width: 560px; ">
         <h2> Cycle de cinéma chinois: De l'écrit à l'écran &#20013;&#22269;&#30005;&#24433;:&#20889;&#20316;&#21040;&#38134;&#24149;</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3955" class="ui-link-inherit">
-        <img src="images/confucius_cycle_cinema_chinois.jpg" alt="project thumbnail" width="120"/></a>
+        <img src="images/confucius_cycle_cinema_chinois.jpg" alt="project thumbnail" width="120" height="91" /></a>
         de novembre 2011 à juin 2012. 2e saison du cycle de cinéma chinois à l'institut Confucius. 16 films seront projetés entre novembre 2011 et juin 2012 et exploreront, des années 1931 à la décennie 2006, les rapports entre le cinéma et la littérature. Chaque film sera introduit par Luisa Prudentino, spécialiste du cinéma chinois et la projection sera suivi d’un débat. <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3955"><span class="suite">Lire la suite</span></a> </p> 
 
         </div><div class="slide" style="float: left; width: 560px; ">
