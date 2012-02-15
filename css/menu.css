@@ -85,13 +85,13 @@
         width:124px;
 }
 #deroulant {
+        background-image:url(http://static1.bfontaine.net/up7opt/bande_menus.png);
         height: 160px;
         width:900px;
         position:relative;
         left:124px; 
         top:0; 
         z-index:2;
-        background-image:url("http://static1.bfontaine.net/p7opt/bande_menus.png");
 }
 #spacer {
         clear: both;

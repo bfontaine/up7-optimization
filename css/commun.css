@@ -12,7 +12,7 @@ body {
         font: normal 70% verdana, arial, helvetica, sans-serif;
         color: black;
         background-color: black;
-        background-image: url("http://static1.bfontaine.net/up7opt/fond_body.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/fond_body.png);
         background-repeat:repeat-x;
         line-height:normal;
         height:100%;
@@ -36,7 +36,7 @@ div#cadre {
         margin-top: 10px;
         margin-bottom: 0px;
         display: block;
-        background-image: url("http://static1.bfontaine.net/up7opt/puce_redirection.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/puce_redirection.png);
         background-repeat: no-repeat;
         margin-left:0;
         alignment-adjust:middle;
@@ -130,7 +130,7 @@ div#gaucheN {
         margin-left:125px;
         margin-top:0;
         text-align: right;
-        background-image:url("http://static1.bfontaine.net/up7opt/footer_2.png");
+        background-image:url(http://static1.bfontaine.net/up7opt/footer_2.png);
         background-repeat:no-repeat;	
 }
 
@@ -653,7 +653,7 @@ h4 {
         font-size: 1.2em;
         font-weight: bold;
         color: black;
-        background: url("http://static1.bfontaine.net/up7opt/sup.png") no-repeat;
+        background: url(http://static1.bfontaine.net/up7opt/sup.png) no-repeat;
         padding-left: 15px;
         margin-left: 10px;
 }
@@ -1090,7 +1090,7 @@ div#header1 {
         display:inline;
         padding: 3px 3px 3px 15px;
         font-family: Arial, Helvetica, sans-serif;
-        background: url("http://static1.bfontaine.net/up7opt/arrowor.png") 2px no-repeat;
+        background: url(http://static1.bfontaine.net/up7opt/arrowor.png) 2px no-repeat;
         font-size: 1.0em;
         font-weight: bold;
         color: #EF001F;
@@ -1105,7 +1105,7 @@ div#header1 {
         font-style: normal;
         font-weight: bold;
         color: #666;
-        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/rondRouge.png);
         background-repeat: no-repeat;
         background-position: left 2px;
         display: block;
@@ -1150,7 +1150,7 @@ div#header1 {
         padding: 0px 0px 0px 8px;
         text-decoration: none;
         color:  #666;
-        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/rondRouge.png);
         background-repeat: no-repeat;
         background-position: 0px 5px;
         line-height:12px;
@@ -1165,7 +1165,7 @@ div#header1 {
         padding: 0px 0px 0px 15px;
         text-decoration: none;
         color:  #666;
-        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/rondRouge.png);
         background-repeat: no-repeat;
         background-position: 0px 4px;
         line-height:15px;
@@ -1179,7 +1179,7 @@ div#header1 {
         padding: 0px 0px 0px 15px;
         text-decoration: none;
         color:  #666;
-        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/rondRouge.png);
         background-repeat: no-repeat;
         background-position: 0px 4px;
         line-height:15px;
@@ -1216,7 +1216,7 @@ div#header1 {
 }
 
 .FlashInfos {
-        background-image: url("http://static1.bfontaine.net/up7opt/flash-infos.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/flash-infos.png);
         background-repeat: no-repeat;
         background-position: left center;
 
@@ -1226,7 +1226,7 @@ div#header1 {
 }
 
 .FlashSport {
-        background-image: url("http://static1.bfontaine.net/up7opt/flash-sport.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/flash-sport.png);
         background-repeat: no-repeat;
         background-position: left center;
         display: inline-block;
@@ -1235,7 +1235,7 @@ div#header1 {
         text-align: center;
 }
 .FlashCulture {
-        background-image: url("http://static1.bfontaine.net/up7opt/flash-culture.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/flash-culture.png);
         background-repeat: no-repeat;
         background-position: left center;
         display: inline-block;
@@ -1244,7 +1244,7 @@ div#header1 {
         text-align: center;
 }
 .FlashVieEtudiante {
-        background-image: url("http://static1.bfontaine.net/up7opt/flash-vie_etudiante.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/flash-vie_etudiante.png);
         background-repeat: no-repeat;
         background-position: left center;
         display:block;
@@ -1254,7 +1254,7 @@ div#header1 {
         text-align: center;
 }
 .info {
-        background-image: url("http://static1.bfontaine.net/up7opt/infoparisdiderot.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/infoparisdiderot.png);
         background-repeat: no-repeat;
         background-position: left center;
 
@@ -1281,7 +1281,7 @@ div#header1 {
         font-style: normal;
         font-weight: bold;
         color: #666;
-        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/rondRouge.png);
         background-repeat: no-repeat;
         background-position: left 2px;
         display: block;
@@ -1330,7 +1330,7 @@ div#header1 {
         font-size: 0.75em;
         font-weight:bold;
         font-family:Verdana, Arial, Helvetica, sans-serif;
-        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/rondRouge.png);
         background-repeat: no-repeat;
         background-position: 0px 6px;
 
@@ -1359,7 +1359,7 @@ div#header1 {
         font-style: normal;
         font-weight: bold;
         color: #777;
-        background-image: url("http://static1.bfontaine.net/up7opt/point-rouge.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/point-rouge.png);
         background-repeat: no-repeat;
         background-position: left 2px;
         display: block;
@@ -1378,7 +1378,7 @@ div#header1 {
         font-style: normal;
         font-weight: normal;
         color: #201;
-        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
+        background-image: url(http://static1.bfontaine.net/up7opt/rondRouge.png);
         background-repeat: no-repeat;
         background-position:  0px 4px;
         display: block;
