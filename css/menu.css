@@ -3,38 +3,45 @@
         padding-top:0px;
         margin-top:6px;
         margin-left:40px;
-        padding-left:0px;
+        padding-left:0;
         list-style-type:none;
         height:141px;
-        margin-top:0px;
-
+        margin-top:0;
 } 
 #menu li {
         display : block; 
-        padding-top:0px;
+        padding-top:0;
         margin-top:6px;
-        margin-bottom:0px;
+        margin-bottom:0;
         margin-left:-3px;
-        padding-left:0px;
-        width : 180px; 
+        padding-left:0;
+        width : 180px;
         height:19px;
         font-size :12px;
 } 
-#menu li a {color: white;}
-#menu li a:hover {color:#D6003D;}
-#menu li a.trans{
+#menu li a {
+        color: white;
+}
+#menu li a:hover {	
+        color:#D6003D;
+}
+#menu li a.trans {
         font-family:Arial, Helvetica, sans-serif; 
-        font-size:12px; color:white; 
-        letter-spacing:1;text-decoration:none
+        font-size:12px;
+        color:white; 
+        letter-spacing:1;
+        text-decoration:none;
 }
 
-#menu  a.trans:hover {color:#f00;}
+#menu  a.trans:hover {
+        color:red;
+}
 #menu li ul { 
-        display : none;
-        position: relative;  
+        display: none;
+        position: relative;
         left:159px;
-        margin-left:0px;
-        padding-left:0px; 
+        margin-left:0;
+        padding-left:0; 
         top:-23px;
         z-index:3;
 }
@@ -42,25 +49,28 @@
         background-image:url(../images/sousmenu.png);
         width: 182px;
         height:29px; 
-        margin-top:0px;
-        margin-bottom:0px;
-
+        margin-top:0;
+        margin-bottom:0;
         border-bottom-color:#C9036B;
         border-bottom-style:solid;
         border-bottom-width:thin;
+
+
 }
 #menu li ul li a {
         color : #827d82;
         text-decoration:none;
         font-family:Arial, Helvetica, sans-serif;
         font-size:11px;
-        letter-spacing:0.5px; line-height:25px; 
+        letter-spacing:0.5px;
+        line-height:25px;
         padding-left:3px; 
 }
 #menu li:hover > ul {
         display:block;    
         color:#D6003D;		
 }
+/*----------------------*/
 #bandeau {
         width: 800px;
         height: 160px;
@@ -68,6 +78,15 @@
 }
 #bandeau_2 {
         height: 160px;
+}
+#carre_gris {
+        height: 160px;
+        width:209px;
+        background-image:url(../images/carre_gris.png);
+        position:relative;
+        left:124px; 
+        top:-160px; 
+        z-index:2;
 }
 #logo {
         float: left;
@@ -79,10 +98,9 @@
         width:900px;
         position:relative;
         left:124px; 
-        top:0px; 
+        top:0; 
         z-index:2;
         background-image:url(../images/bande_menus.png);
-
 }
 #spacer {
         clear: both;
