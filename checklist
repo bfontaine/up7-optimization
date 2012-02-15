@@ -16,6 +16,9 @@ X : Done
 [~] Merge similar CSS files
 [~] Optimize CSS (merge similar rules, use #XYZ instead of #XXYYZZ, etc)
 [~] Write dimensions of images in the HTML source code
+[ ] Make images cacheable
+[ ] Make JS files cacheable
+[ ] Make CSS files cacheable
 [ ] Resize images which are scaled in HTML
 [ ] minify CSS files
 [ ] Remove deprecated HTML attributes (like 'border')
