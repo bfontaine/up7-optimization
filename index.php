@@ -28,11 +28,11 @@
         <div id="cadre">
         <div id="logo">
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=accueil&g=sm&h=o">
-        <img border="0" src="images/logo-P7.png"/>
+        <img border="0" src="images/logo-P7.png" height="320" width="124" />
         </a>
         </div>
 
-        <div id="bandeau"><?php echo('<img src="images/accueil_'.mt_rand(1,5).'.png" height="160"/>'); ?></div> 
+        <div id="bandeau"><?php echo('<img src="images/accueil_'.mt_rand(1,5).'.png" height="160" width="900" />'); ?></div> 
         <div id="bandeau_2">
 
         <div id="deroulant">
@@ -169,10 +169,10 @@
         </ul>
         </div>
         <div style="float:right; margin-top:5px; margin-right:5px; ">
-        <a href="http://www.univ-paris-diderot.fr/index.php"><img src="images/drapeau_francais.jpg" border="0" alt="french"/></a>
-        <a href="http://www.univ-paris-diderot.fr/english/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="images/uk.png" border="0" alt="english"/></a>
-        <a href="http://www.univ-paris-diderot.fr/spanish/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="images/spain.png" border="0" alt="spanish"/></a>
-        <a href="http://www.univ-paris-diderot.fr/chinese/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="images/china.png" border="0" alt="chinese"/></a>
+        <a href="http://www.univ-paris-diderot.fr/index.php"><img src="images/drapeau_francais.jpg" border="0" alt="french" height="21" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/english/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="images/uk.png" border="0" alt="english" height="20" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/spanish/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="images/spain.png" border="0" alt="spanish" height="20" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/chinese/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="images/china.png" border="0" alt="chinese" height="20" width="30" /></a>
         </div>
         <form name="form1" method="get" action="http://cherche.univ-paris-diderot.fr/search">	
         <div class="boutonRech">	
@@ -209,12 +209,12 @@
         </div>
 
         <div style="margin-top:20px; margin-left:auto; margin-right:auto; width:150px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ligne" href="http://fr-fr.facebook.com/univparisdiderot" title="page FaceBook Paris Diderot"><img src="images/faceBook.png" alt="FaceBook" border="0" align="middle"/></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ligne" href="http://fr-fr.facebook.com/univparisdiderot" title="page FaceBook Paris Diderot"><img src="images/faceBook.png" alt="FaceBook" border="0" align="middle" width="18" height="18" /></a>
         <a class="ligne" href="http://twitter.com/#ParisDiderot" title="Twitter">
-        <img src="images/twitter.png" alt="Fil Rss du site" border="0" align="middle"/></a>
+        <img src="images/twitter.png" alt="Suivez Paris Diderot sur Twitter" border="0" align="middle" heigt="20" width="20" /></a>
 
         <a class="ligne" href="http://www.univ-paris-diderot.fr/universite/rssActu1.php" title="Syndiquer tout le site">
-        <img src="images/feed.png" alt="Fil Rss du site" border="0" align="middle"/></a>
+        <img src="images/feed.png" alt="Fil Rss du site" border="0" align="middle" height="24" width="24"/></a>
         </div>
 
         <div style="margin-top:10px; margin-bottom:0px; font-size:13px; padding-left:36px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:0.5; color:#D6003D; line-height:18px;">Université Paris Diderot</div>
@@ -224,12 +224,12 @@
         Tél. +33 (0)1 57 27 57 27<br/>
         </div>
         <div style="margin-top:20px; margin-left:auto; margin-right:auto; width:150px">
-        <a href="http://www.sorbonne-paris-cite.fr/"><img src="images/logo-Sorbonne-Paris-Cite.png"/></a>
+        <a href="http://www.sorbonne-paris-cite.fr/"><img src="images/logo-Sorbonne-Paris-Cite.png" width="140" height="117" /></a>
         </div>
 
         <div class="encadre"><br/>
         <p align="center">
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recrutement&np=ACCUEIL&g=m"><img src="images/stickerrecrutement_3.png" border="1" alt="recrutement"/></a>
+        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recrutement&np=ACCUEIL&g=m"><img src="images/stickerrecrutement_3.png" border="1" alt="recrutement" width="140" height="119" /></a>
         </p></div>
         <div id="cleardiv"></div><br/> 
         <div id="cleardiv"></div>
@@ -250,7 +250,7 @@
         </div><div class="slide" style="float: left; width: 560px; ">
         <h2> Journée portes ouvertes 2012</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910" class="ui-link-inherit">
-        <img src="images/Sticker-JPO2.png" alt="project thumbnail" width="120"/></a>
+        <img src="images/Sticker-JPO2.png" alt="project thumbnail" width="120" height="120" /></a>
         Nos prochaines Portes ouvertes concernent les futurs étudiants en médecine et ceux de licence : Sciences, Technologie; Arts, Lettres, Langues ; Economie, Gestion ; Sciences Humaines et Sociales<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910"><span class="suite">Lire la suite</span></a> </p> 
 
         </div><div class="slide" style="float: left; width: 560px; ">

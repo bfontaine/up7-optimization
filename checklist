@@ -15,12 +15,13 @@ X : Done
 [~] Delete unused CSS instructions
 [~] Merge similar CSS files
 [~] Optimize CSS (merge similar rules, use #XYZ instead of #XXYYZZ, etc)
+[~] Write dimensions of images in the HTML source code
+[ ] Resize images which are scaled in HTML
 [ ] minify CSS files
 [ ] Remove deprecated HTML attributes (like 'border')
 [ ] Use HTML5 new tags & attributes
 [ ] Use CSS where there's no need of image
 [ ] Use CSS Sprites where needed
-[ ] Write dimensions of images in the HTML source code
 [ ] Use subdomains for static images
 [ ] Make valid HTML/CSS
 [ ] Use WCAG 2.0 recommendations (≥ level A)
