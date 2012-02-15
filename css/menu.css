@@ -46,7 +46,7 @@
         z-index:3;
 }
 #menu li ul li {
-        background-image:url(../images/sousmenu.png);
+        background-color:#eee;
         width: 182px;
         height:29px; 
         margin-top:0;
