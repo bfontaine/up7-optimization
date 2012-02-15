@@ -27,6 +27,7 @@ X : Done
 [ ] minify CSS files
 [ ] Remove deprecated HTML attributes (like 'border')
 [ ] Replace HTML tables with correct tags
+[ ] Remove inline CSS and put it in external stylesheets
 [ ] Use HTML5 doctype, new tags & attributes
 [ ] Use CSS Sprites where needed (ex: english/french/spanish/chinese flags)
 [ ] Make valid HTML/CSS
