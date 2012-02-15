@@ -195,7 +195,7 @@ div#header1 {
         text-align: left;
 }
 
-#cleardiv {
+.cleardiv {
         clear: both;
         height:0.1em;
 }
@@ -1099,7 +1099,7 @@ h4 {
         padding:0;
 }
 
-div#header1 {
+#header1 {
         margin-top:0;
 
         font-family:Verdana, Arial, Helvetica, sans-serif;

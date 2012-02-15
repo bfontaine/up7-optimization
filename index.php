@@ -234,8 +234,8 @@
         <p align="center">
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recrutement&np=ACCUEIL&g=m"><img src="http://static1.bfontaine.net/up7opt/stickerrecrutement_3.png" border="1" alt="recrutement" width="140" height="119" /></a>
         </p></div>
-        <div id="cleardiv"></div><br/> 
-        <div id="cleardiv"></div>
+        <div class="cleardiv"></div><br/> 
+        <div class="cleardiv"></div>
         </div>
 
         <div id="content">   
@@ -281,9 +281,7 @@
         </div>
         </div>
 
-        <br class="nettoyeur">
-        <div id="cleardiv"></div>
-        <div id="colloque"> 
+        <div id="colloques"> 
         <div class="titre">
         <h2 class="titre1"><a class="titre1" href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recherche&np=CONGCOLL">Colloques <br/><br/>Congrès<br/><br/>Séminaires</a></h2>
         </div>
@@ -345,19 +343,22 @@
         </div>
         <p>&nbsp;</p></div>
 
-        <div id="cleardiv"></div>    
+        <div class="cleardiv"></div>    
         </div>
-        <div id="cleardiv"></div>
+        <div class="cleardiv"></div>
 
         </div> 
 
-        <div id="cleardiv"></div>
+        <div class="cleardiv"></div>
         </div>
 
         <div id="droitet">
-        <div id="cleardiv"></div>
-        <div id="cleardiv"></div>
-        <div id="cleardiv"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="cleardiv"></div>
+        <div class="cleardiv"></div>
+        <div class="cleardiv"></div>
 
         <div class="FlashInfos"></div>
         <div class="choix_infos">
@@ -386,7 +387,7 @@
         </li>
         </ul>
 
-        </div><div id="cleardiv"></div>
+        </div><div class="cleardiv"></div>
         <div id="listeActuas">
 
         <div class="encadreActu">
@@ -396,9 +397,9 @@
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3949" class="lirelasuite">lire la suite</a>
 
         </p></div>
-        <div id="cleardiv"></div>    
+        <div class="cleardiv"></div>    
         </div>
-        <div id="cleardiv"></div>
+        <div class="cleardiv"></div>
         <div class="encadreActu">
         <div class="titreActu">Autisme</div>
         <div class="nouvelle"><p>De nouveaux résultats soulignent l’importance des gènes synaptiques dans l’autisme.
@@ -406,11 +407,11 @@
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3950" class="lirelasuite">lire la suite</a>
 
         </p></div>
-        <div id="cleardiv"></div>    
+        <div class="cleardiv"></div>    
         </div>
-        <div id="cleardiv"></div>
-        <div id="cleardiv"></div>
-        <div id="cleardiv"></div>
+        <div class="cleardiv"></div>
+        <div class="cleardiv"></div>
+        <div class="cleardiv"></div>
         <div class="encadreActu">
         <div class="titreActu">Médaille d'argent</div>
         <div class="nouvelle"><p style="text-align: justify;">Louca Mendy, étudiant en 1<sup>re</sup> année de licence de Sciences économiques et sociales à    l'université Paris Diderot, a décroché la médaille d'argent aux    championnats de France universitaire d'athlétisme.
@@ -418,10 +419,10 @@
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3962" class="lirelasuite">lire la suite</a>
 
         </p></div>
-        <div id="cleardiv"></div>    
+        <div class="cleardiv"></div>    
         </div>
-        <div id="cleardiv"></div>
-        <div id="cleardiv"></div>
+        <div class="cleardiv"></div>
+        <div class="cleardiv"></div>
         <div class="encadreActu">
         <div class="titreActu">Diversité du japonais et dialectes</div>
         <div class="nouvelle"><div class="paragraph5"><strong><span style="font-weight: bold;">Ce colloque se tiendra en japonais par le Professeur</span></strong><span style="font-weight: bold;"> </span>Haruo Kubozono &#31402;&#34199;&#26228;&#22827;, chercheur invité par l’Université Paris Diderot</div>
@@ -430,9 +431,9 @@
 <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3958" class="lirelasuite">lire la suite</a>
 
         </p></div>
-        <div id="cleardiv"></div>    
+        <div class="cleardiv"></div>    
         </div>
-        <div id="cleardiv"></div>
+        <div class="cleardiv"></div>
         </div> 
 
         <div>
@@ -440,27 +441,27 @@
 
         </div>                     
 
-        <br class="nettoyeur">
-        <div id="cleardiv"></div>
+        <br/>
+        <div class="cleardiv"></div>
 
         </div>
 
         </div> 
-        <div id="cleardiv"></div>
+        <div class="cleardiv"></div>
 
         <div id="menuLien">		
 
         <div class="boiter">
 
-        <ul> <li><img src="http://static2.bfontaine.net/up7opt/page-0001.jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_etudiant/index.html" target="_blank">Guide de l'étudiante<br/> et de l'étudiant<br/>Edition 2011-2012</a></li></ul>
+        <ul> <li><img src="http://static2.bfontaine.net/up7opt/couv_guide_etu_11-12.jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_etudiant/index.html">Guide de l'étudiante<br/> et de l'étudiant<br/>Edition 2011-2012</a></li></ul>
 
-        <ul> <li><img src="http://static2.bfontaine.net/up7opt/page-0001(1).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_ang/index.html" target="_blank">Guide international de l'étudiant<br/>version anglaise</a></li></ul>
+        <ul> <li><img src="http://static2.bfontaine.net/up7opt/couv_guide_i10l_en.jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_ang/index.html">Guide international de l'étudiant<br/>version anglaise</a></li></ul>
 
-        <ul> <li><img src="http://static2.bfontaine.net/up7opt/page-0001(2).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_fra/index.html" target="_blank">Guide international de l'étudiant<br/>version française</a></li></ul>
+        <ul> <li><img src="http://static2.bfontaine.net/up7opt/couv_guide_i10l_fr.jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_fra/index.html">Guide international de l'étudiant<br/>version française</a></li></ul>
 
         </div>
 
-        <div id="cleardiv"></div></div>
+        <div class="cleardiv"></div></div>
 
         <div id="footer">
         <div id="menu_footer">
@@ -486,10 +487,7 @@
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script><script src="js/ga.js" type="text/javascript"></script>
 <script type="text/javascript">
-try {
-        var pageTracker = _gat._getTracker("UA-15158667-2");
-        pageTracker._trackPageview();
-                                                                } catch(err) {}</script>-->
+try {_gat._getTracker("UA-15158667-2")._trackPageview();} catch(e) {}</script>-->
 
 </body>
         </html>

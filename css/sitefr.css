@@ -486,14 +486,13 @@ div .gauche2 {
         height:20px;
         width:90px;
 }
-#colloque {
-
-        margin-top: 8px;
+#colloques {
+        margin-top: 20px;
         position: relative;
         width: 675px;
         height:150px
 }
-#colloque .titre {
+#colloques .titre {
         width:120px;
         height:120px;
         background:#CF0031;
@@ -501,7 +500,7 @@ div .gauche2 {
         margin:2px;
         padding:2px;
 }
-#colloque .contenu {
+#colloques .contenu {
         width:120px;
         height:120px;
         background:#999;
@@ -515,8 +514,8 @@ div .gauche2 {
         margin:2px;
         padding:2px;
 }	
-#colloque h3 {
-        font-family: Arial, Helvetica, sans-serif;
+#colloques h3 {
+        font-family:Arial, Helvetica, sans-serif;
         color:red;
         font-size:13px;
         font-weight:normal;
@@ -525,8 +524,7 @@ div .gauche2 {
         margin-bottom:5px;
         margin-top:auto;
 }
-#colloque h2 {
-        font-family: Arial, Helvetica, sans-serif;
+#colloques h2 {
         color:#888;
         font-size:14px;
         font-weight:bold;
@@ -534,16 +532,15 @@ div .gauche2 {
         padding-top:2px;
         text-align:center;
 }
-#colloque h2.titre1 {
-        font-family: Arial, Helvetica, sans-serif;
+#colloques h2.titre1 {
         color:white;
         font-size:16px;
         padding-top:10px;
 }
-#colloque a.titre1 {
+#colloques a.titre1 {
         color:white;
 }
-#colloque a.titre1:hover {
+#colloques a.titre1:hover {
         color:black;
         text-decoration:underline;
 }
