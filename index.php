@@ -31,7 +31,7 @@
         <div id="cadre">
         <div id="logo">
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=accueil&g=sm&h=o">
-        <img border="0" src="http://static1.bfontaine.net/up7opt/logo-P7.png" height="320" width="124" />
+        <img src="http://static1.bfontaine.net/up7opt/logo-P7.png" height="320" width="124" />
         </a>
         </div>
 
@@ -172,10 +172,10 @@
         </ul>
         </div>
         <div style="float:right; margin-top:5px; margin-right:5px; ">
-        <a href="http://www.univ-paris-diderot.fr/index.php"><img src="http://static2.bfontaine.net/up7opt/drapeau_francais.jpg" border="0" alt="french" height="21" width="30" /></a>
-        <a href="http://www.univ-paris-diderot.fr/english/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/uk.png" border="0" alt="english" height="20" width="30" /></a>
-        <a href="http://www.univ-paris-diderot.fr/spanish/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/spain.png" border="0" alt="spanish" height="20" width="30" /></a>
-        <a href="http://www.univ-paris-diderot.fr/chinese/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/china.png" border="0" alt="chinese" height="20" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/index.php"><img src="http://static2.bfontaine.net/up7opt/drapeau_francais.jpg" alt="french" height="21" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/english/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/uk.png" alt="english" height="20" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/spanish/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/spain.png" alt="spanish" height="20" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/chinese/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/china.png" alt="chinese" height="20" width="30" /></a>
         </div>
         <form name="form1" method="get" action="http://cherche.univ-paris-diderot.fr/search">	
         <div class="boutonRech">	
@@ -212,12 +212,12 @@
         </div>
 
         <div style="margin-top:20px; margin-left:auto; margin-right:auto; width:150px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ligne" href="http://fr-fr.facebook.com/univparisdiderot" title="page FaceBook Paris Diderot"><img src="http://static1.bfontaine.net/up7opt/faceBook.png" alt="FaceBook" border="0" align="middle" width="18" height="18" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ligne" href="http://fr-fr.facebook.com/univparisdiderot" title="page FaceBook Paris Diderot"><img src="http://static1.bfontaine.net/up7opt/faceBook.png" alt="FaceBook" align="middle" width="18" height="18" /></a>
         <a class="ligne" href="http://twitter.com/#ParisDiderot" title="Twitter">
-        <img src="http://static1.bfontaine.net/up7opt/twitter.png" alt="Suivez Paris Diderot sur Twitter" border="0" align="middle" height="20" width="20" /></a>
+        <img src="http://static1.bfontaine.net/up7opt/twitter.png" alt="Suivez Paris Diderot sur Twitter" align="middle" height="20" width="20" /></a>
 
         <a class="ligne" href="http://www.univ-paris-diderot.fr/universite/rssActu1.php" title="Syndiquer tout le site">
-        <img src="http://static1.bfontaine.net/up7opt/feed.png" alt="Fil Rss du site" border="0" align="middle" height="24" width="24"/></a>
+        <img src="http://static1.bfontaine.net/up7opt/feed.png" alt="Fil Rss du site" align="middle" height="24" width="24"/></a>
         </div>
 
         <div style="margin-top:10px; margin-bottom:0px; font-size:13px; padding-left:36px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:0.5; color:#D6003D; line-height:18px;">Université Paris Diderot</div>
@@ -320,19 +320,19 @@
         <div class="encadreActu">
         <div class="titreActu">Elections des personnels</div>
         <div class="nouvelle"><div class="paragraph5">
-        <table cellspacing="0" cellpadding="1" border="0" align="left" style="width: 303px; height: 186px;">
+        <table cellspacing="0" cellpadding="1" align="left" style="width: 303px; height: 186px;">
         <tbody>
         <tr>
         <td><img width="120" height="133" src="http://static2.bfontaine.net/up7opt/elections.gif" alt=""/></td>
         <td>&nbsp;</td>
         <td>
-        <div class="paragraph5"><span style="color: rgb(0, 0, 0);"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12&g=m"><span style="color: rgb(0, 0, 0);"><strong><span style="font-size: small;">Candidats aux <br/>
+        <div class="paragraph5"><span style="color:black;"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12&g=m"><span style="color:black;"><strong><span style="font-size: small;">Candidats aux <br/>
         élections des <br/>
         personnels aux <br/>
         CA,&nbsp;CEVU, CS</span></strong></span></a></span><span style="font-size: small;"><br/>
         <br/>
         </span></div>
-        <div class="paragraph5"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12_MED&g=m"><span style="color: rgb(0, 0, 0);"><strong><span style="font-size: small;">Candidats aux <br/>
+        <div class="paragraph5"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12_MED&g=m"><span style="color:black;"><strong><span style="font-size: small;">Candidats aux <br/>
         élections des<br/>
         personnels <br/>
         UFR&nbsp;de Médecine</span></strong></span></a><span style="font-size: small;"><br/>
