@@ -244,7 +244,7 @@
         <div id="slideInner" style="width: 3360px; "><div class="slide" style="float: left; width: 560px; ">
         <h2> Appel à initiatives étudiantes</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909" class="ui-link-inherit">
-        <img src="images/illu_appelpres2(1).jpg" alt="project thumbnail" width="120"/></a>
+        <img src="images/illu_appelpres2.jpg" alt="project thumbnail" width="120" height="112" /></a>
         Cet appel à projets encourage les projets associatifs et favorise des actions communes avec d’autres membres des établissements du Pres Sorbonne Paris Cité.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909"><span class="suite">Lire la suite</span></a> </p> 
 
         </div><div class="slide" style="float: left; width: 560px; ">
@@ -252,12 +252,6 @@
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910" class="ui-link-inherit">
         <img src="images/Sticker-JPO2.png" alt="project thumbnail" width="120" height="120" /></a>
         Nos prochaines Portes ouvertes concernent les futurs étudiants en médecine et ceux de licence : Sciences, Technologie; Arts, Lettres, Langues ; Economie, Gestion ; Sciences Humaines et Sociales<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910"><span class="suite">Lire la suite</span></a> </p> 
-
-        </div><div class="slide" style="float: left; width: 560px; ">
-        <h2> Vidéo : Super Tem</h2>
-        <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3936" class="ui-link-inherit">
-        <img src="images/illu_supertem.jpg" alt="project thumbnail" width="120"/></a>
-        Super Tem, microscope électronique de la plate-forme nanotechnolgies de l'université Paris Diderot, vient d'être inauguré. Découvrez ses qualités techniques, uniques au monde.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3936"><span class="suite">Lire la suite</span></a> </p> 
 
         </div><div class="slide" style="float: left; width: 560px; ">
         <h2> Cycle de cinéma chinois: De l'écrit à l'écran &#20013;&#22269;&#30005;&#24433;:&#20889;&#20316;&#21040;&#38134;&#24149;</h2>
@@ -268,7 +262,7 @@
         </div><div class="slide" style="float: left; width: 560px; ">
         <h2> Publication</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3953" class="ui-link-inherit">
-        <img src="images/illu_oikos_120.jpg" alt="project thumbnail" width="120"/></a>
+        <img src="images/illu_oikos_120.jpg" alt="project thumbnail" width="120" height="146" /></a>
         "L'oikos en fête. Célébrations familiales et sociabilité en Grèce ancienne". 
         Comment définir la famille en Grèce ancienne ? Qui invite-t-on chez soi ? Suivant quelles modalités ? Pourquoi ? Le livre de Florence Gherchanoc, maître de conférences en histoire grecque à l’université Paris Diderot, vient de paraître.   
         &nbsp;<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3953"><span class="suite">Lire la suite</span></a> </p> 
@@ -276,7 +270,7 @@
         </div><div class="slide" style="float: left; width: 560px; ">
         <h2> Publication</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3964" class="ui-link-inherit">
-        <img src="images/couv_communisme150.jpg" alt="project thumbnail" width="120"/></a>
+        <img src="images/couv_communisme150.jpg" alt="project thumbnail" width="120" height="128" /></a>
         "Le Communisme primitif n’est plus ce qu’il était" : ce  livre, actuellement en cours de réédition, a été écrit par Christophe  Darmangeat, docteur en sciences économiques à l’université Paris  Diderot.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3964"><span class="suite">Lire la suite</span></a> </p> 
 
         </div></div>

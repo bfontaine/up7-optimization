@@ -12,14 +12,15 @@ X : Done
 [X] Use gzip compression (except for binary files)
 [X] Optimize images (delete useless EXIF data)
 [X] Remove ETags
+[X] Resize images which are scaled in HTML
 [~] Delete unused CSS instructions
 [~] Merge similar CSS files
 [~] Optimize CSS (merge similar rules, use #XYZ instead of #XXYYZZ, etc)
 [~] Write dimensions of images in the HTML source code
+[ ] Resize images which are scaled in HTML and inserted via JS scripts
 [ ] Make images cacheable
 [ ] Make JS files cacheable
 [ ] Make CSS files cacheable
-[ ] Resize images which are scaled in HTML
 [ ] minify CSS files
 [ ] Remove deprecated HTML attributes (like 'border')
 [ ] Use HTML5 new tags & attributes
