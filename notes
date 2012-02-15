@@ -1,0 +1,10 @@
+Optimize .png :
+        $> pngcrush -rem -alla -reduce -brute in.png out.png    
+        $> optipng -o7 -out out.png in.png
+
+Optimize .jpg :
+        $> jpegtran -copy none -optimize -perfect in.jpg > out.jpg 
+
+Resize images :
+        $> convert in.jpg -resize $WIDTHx$HEIGHT out.jpg
+
