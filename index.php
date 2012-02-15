@@ -12,10 +12,9 @@
 
                 <link href="css/commun.css" rel="stylesheet" type="text/css"/>
                 <link href="css/site.css" rel="stylesheet" type="text/css"/>
-                <link href="css/site(1).css" rel="stylesheet" type="text/css"/>
                 <link href="css/sitefr.css" rel="stylesheet" type="text/css"/>
                 <link href="css/menu.css" rel="stylesheet" type="text/css"/>
-                <link rel="stylesheet" href="css/design.css" media="all"/>
+                <link href="css/design.css" rel="stylesheet" media="all"/>
                 <link href="css/menuA.css" rel="stylesheet" type="text/css"/>
 
                 <script src="js/jquery-1.7.1.min.js"></script>
@@ -384,7 +383,7 @@
         </ul>
 
         </div><div id="cleardiv"></div>
-        <div class="listeActuas">
+        <div id="listeActuas">
 
         <div class="encadreActu">
         <div class="titreActu">Site web : nouvelle ergonomie, nouveau graphisme</div>

@@ -35,4 +35,4 @@ X : Done
 
 [X] Display a random image at the top of the site (like the original one)
 [X] Use a PHP session (to have a cookie, like the original website)
-[ ] Use a favicon (like the original website)
+[X] Use a favicon (like the original website)
