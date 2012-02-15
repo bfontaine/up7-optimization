@@ -79,15 +79,6 @@
 #bandeau_2 {
         height: 160px;
 }
-#carre_gris {
-        height: 160px;
-        width:209px;
-        background-image:url(../images/carre_gris.png);
-        position:relative;
-        left:124px; 
-        top:-160px; 
-        z-index:2;
-}
 #logo {
         float: left;
         height: 160px;

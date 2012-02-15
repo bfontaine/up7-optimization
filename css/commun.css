@@ -235,28 +235,17 @@ div#gaucheN {
         width: 930px;
         margin-left:110px;
         margin-bottom:0;
-        background-color: #FFFFFF;
+        background-color:white;
 
-        background:transparent url(../images/gauche_2n.png) repeat-y scroll 0 100%;
+        background:transparent /*url(../images/gauche_2n.png)*/ repeat-y scroll 0 100%;
         text-align: left;
 }
-
-.carre {
-        height: 30px;
-        width:30px;
-        background-image:url(../images/carre.png);
-        position:relative;
-        left:1010px; 
-        top:-20px; 
-        z-index:6;
-}
-
 .bg_droite {
         width: 900px;
         margin-left:15px;
         margin-bottom:0;
-        background-color:ffffff;
-        background:transparent url(../images/droite_2n.png) repeat-y scroll 0 100%;
+        background-color:white;
+        background:transparent /*url(../images/droite_2n.png)*/ repeat-y scroll 0 100%;
         text-align: right;
 
 }
@@ -651,34 +640,6 @@ div#footer li {
         line-height:1.3em;
         color: #949;
 }
-
-#content .titreP7-1 {
-        font-family:Arial, Helvetica, sans-serif;	
-        font-size: 18px;
-        font-weight:bold;
-        line-height:20px;
-        letter-spacing:0.5;
-        color: #D6003D;
-        margin-top:0;
-        margin-bottom:0;
-        padding-top:0;
-        padding-bottom:10px;
-        text-transform:capitalize;
-}	
-#content .titreP7-2 {
-        font-family:Arial, Helvetica, sans-serif;	
-        font-size: 16px;
-        font-weight:bold;
-        line-height:18px;
-        letter-spacing:0.5;
-        color: #D6003D;
-        margin-top:0;
-        margin-bottom:0;
-        padding-top:0;
-        padding-bottom:10px;
-
-}
-
 h1 {
         font-family:Arial, Helvetica, sans-serif;	
         font-size: 16px;
@@ -692,60 +653,6 @@ h1 {
         padding-bottom:10px;
 
 }
-
-#content  .titreP7-3 {	
-        font-family:Arial, Helvetica, sans-serif;	
-        font-size: 12px;
-        font-weight:bold;
-        line-height:16px;
-        color: #D6003D;
-        margin-top:0;
-        padding-top:0;
-        padding-bottom:5px;
-        padding-left: 15px;
-        color: #666;
-        background: url(../images/carreRouge.png);
-        background-repeat: no-repeat;
-        background-position: 0px 5px;
-}
-
-#content .titreP7-4 {	
-        font-family:Verdana, Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        color: #666;
-        font-weight: normal;
-        text-align: left;
-        background: url(../images/rondRouge.png);
-        background-repeat: no-repeat;
-        background-position: 0px 7px;
-        padding-left: 10px;
-        margin-left: 10px;
-        margin-top: 0px;
-}
-#content .titreP7-5 {	
-        font-family:Verdana, Arial, Helvetica, sans-serif;
-        font-size: 0.9em;
-        color: #666;
-        font-weight: normal;
-        text-align: left;
-        background: url(../images/rondRouge.png);
-        background-repeat: no-repeat;
-        background-position: 0px 7px;
-        padding-left: 10px;
-        margin-left: 10px;
-        margin-top: 5px;
-}
-
-#content .titreP7-6 {
-        font-family:Arial, Helvetica, sans-serif;	
-        font-size: 14px;
-        font-weight:bold;
-        line-height:16px;
-        letter-spacing:0.5;
-        color: #D6003D;
-        margin-top:15px;
-}
-
 h2 {
         font-family:Arial, Helvetica, sans-serif;	
         font-size: 14px;
@@ -755,20 +662,6 @@ h2 {
         color: #D6003D;
         margin-top:20px;
         margin-bottom: 5px;
-}
-
-#content .titreP7-7 {
-        padding-top: 2px;
-        padding-bottom: 1px;
-        font-family:Verdana, Arial, Helvetica, sans-serif;
-        font-size: 1.1em;
-        color: #EF001F;
-        font-weight: bold;
-        text-align: left;
-        width: auto;
-        margin-top:5px;
-        margin-left: 0px;
-        margin-bottom: 8px;
 }
 h3 {
         padding-top: 0px;
@@ -1331,36 +1224,6 @@ div#header1 {
         letter-spacing:normal;	
 }
 
-#content a.liste {
-        display: block;
-        margin-left:5px;
-        font-size: 1.05em;
-        font-weight:bold;
-        font-family:Arial, Helvetica, Verdana, sans-serif;
-        padding: 0px 0px 0px 15px;
-        text-decoration: none;
-        color:  #666;
-        background-image: url("../images/carreRouge.png");
-        background-repeat: no-repeat;
-        background-position: 0px 4px;
-        line-height:16px;
-}
-
-#content a.liste2 {
-        font-family: Arial, Helvetica, Verdana, sans-serif;
-        font-size: 1.0em;
-        font-weight: bold;
-        color: #666;
-
-        background-repeat: no-repeat;
-        background-position: left 2px;
-        display: block;
-        margin-left:10px;
-        text-align: left;
-        padding-left:10px;	
-        line-height: 15px;	
-}
-
 #contentU a.liste2 {
         font-family: Verdana, Arial, Helvetica, sans-serif;
         font-size: 0.75em;
@@ -1428,21 +1291,6 @@ div#header1 {
         text-decoration: none;
         color:  #666;
         background-image: url("../images/rondRouge.png");
-        background-repeat: no-repeat;
-        background-position: 0px 4px;
-        line-height:15px;
-}
-
-#contentU a.liste {
-        display: block;
-        margin-left:30px;
-
-        font-weight:bold;
-        font-family:Verdana, Arial, Helvetica, sans-serif;
-        padding: 0px 0px 0px 15px;
-        text-decoration: none;
-        color:  #666;
-        background-image: url("../images/carreRouge.png");
         background-repeat: no-repeat;
         background-position: 0px 4px;
         line-height:15px;
@@ -1552,21 +1400,6 @@ div#header1 {
         background: white;
         height:auto;
 }
-
-#content .titreActuUfr {
-        margin-left:5px;
-        font-size: 1.2em;
-        font-weight:bold;
-        font-family:Verdana, Arial, Helvetica, sans-serif;
-        padding: 0px 0px 0px 15px;
-        text-decoration: none;
-        color:  #666;
-        background-image: url("../images/carreRouge.png");
-        background-repeat: no-repeat;
-        background-position: 0px 4px;
-        line-height:15px;
-}
-
 #content .titreActu2 {
         font-family: Verdana, Arial, Helvetica, sans-serif;
         font-size: 0.75em;
@@ -1696,20 +1529,6 @@ div#header1 {
 #content a.chapo:hover {
         text-decoration: underline;
         color: #FF0000;
-}
-
-.titreAccueil {
-        font-size: 0.9em;
-        color: #666;
-        font-weight: normal;
-        text-align: left;
-        background-repeat: no-repeat;
-        background-position: 0px 5px;
-        padding-left: 15px;
-        margin-left: 10px;
-        margin-top: 5px;
-        font-family: Verdana, Arial, Helvetica, Sans-serif;
-        background-image: url(../images/carreRouge.png);
 }
 .libsaisief {
         background-color: #111;
