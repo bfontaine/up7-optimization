@@ -12,7 +12,7 @@ body {
         font: normal 70% verdana, arial, helvetica, sans-serif;
         color: black;
         background-color: black;
-        background-image: url(../images/fond_body.png);
+        background-image: url("http://static1.bfontaine.net/up7opt/fond_body.png");
         background-repeat:repeat-x;
         line-height:normal;
         height:100%;
@@ -32,136 +32,11 @@ div#cadre {
         margin-right:auto;
 
 }
-
-.diaporama {
-        position:relative;
-        width:200px;
-        height:133px;
-}
-
-.diaporama li {
-        list-style-type:none;
-        overflow:hidden;
-        position:absolute;
-}
-
-
-
-.diaporama_controls {
-        width:200px;
-        margin:3px 0;
-        padding:0;
-        clear:both;
-        overflow:hidden;
-}
-
-.diaporama_controls .btns {
-        float:left;
-}
-
-.diaporama_controls a {
-        font-weight:normal;
-        width:10px;
-        height:13px;
-        text-indent:-9999px;
-        display:inline-block;
-        margin:0 3px;
-}
-
-.diaporama_controls .prev {
-        background:url(img/fleches_diapo.png) no-repeat top right;
-}
-
-.diaporama_controls .next {
-        background:url(img/fleches_diapo.png) no-repeat top left;
-}
-
-.diaporama_controls .pause {
-        background:url(img/fleches_diapo.png) no-repeat bottom right;
-}
-
-.diaporama_controls .play {
-        background:url(img/fleches_diapo.png) no-repeat bottom left;
-}
-
-
-
-.diaporama1 {
-        position:relative;
-        width:282px; 
-        height:188px; 
-}
-
-.diaporama1 li {
-        list-style-type:none;
-        overflow:hidden;
-        position:absolute;
-        left:0;
-        top:0;  
-}
-
-.diaporama1_controls {
-
-        margin:3px 0;
-        padding:5px;
-        clear:both;
-        overflow:hidden;
-}
-
-.diaporama1_controls .btns {
-        float:right;
-}	
-
-.diaporama1_controls a {
-        font-weight:normal;
-        width:10px;
-        height:13px;
-        text-indent:-9999px;
-        display:inline-block;
-        margin:0 3px;
-}
-
-
-.diaporama2 {
-        position:relative;
-        width:282px; 
-        height:188px; 
-}
-
-.diaporama2 li {
-        list-style-type:none;
-        overflow:hidden;
-        position:absolute;
-        left:0;
-        top:0; 
-}
-
-.diaporama2_controls {
-
-        margin:3px 0;
-        padding:0;
-        clear:both;
-        overflow:hidden;
-}
-
-.diaporama2_controls .btns {
-        float:right;
-}
-
-.diaporama2_controls a {
-        font-weight:normal;
-        width:10px;
-        height:13px;
-        text-indent:-9999px;
-        display:inline-block;
-        margin:0 3px;
-}
-
 .puce_lien {
         margin-top: 10px;
         margin-bottom: 0px;
         display: block;
-        background-image: url("../images/puce_redirection.png");
+        background-image: url("http://static1.bfontaine.net/up7opt/puce_redirection.png");
         background-repeat: no-repeat;
         margin-left:0;
         alignment-adjust:middle;
@@ -237,7 +112,7 @@ div#gaucheN {
         margin-bottom:0;
         background-color:white;
 
-        background:transparent /*url(../images/gauche_2n.png)*/ repeat-y scroll 0 100%;
+        background:transparent /* 404: url(../images/gauche_2n.png)*/ repeat-y scroll 0 100%;
         text-align: left;
 }
 .bg_droite {
@@ -245,7 +120,7 @@ div#gaucheN {
         margin-left:15px;
         margin-bottom:0;
         background-color:white;
-        background:transparent /*url(../images/droite_2n.png)*/ repeat-y scroll 0 100%;
+        background:transparent /* 404: url(../images/droite_2n.png)*/ repeat-y scroll 0 100%;
         text-align: right;
 
 }
@@ -255,7 +130,7 @@ div#gaucheN {
         margin-left:125px;
         margin-top:0;
         text-align: right;
-        background-image:url(../images/footer_2.png);
+        background-image:url("http://static1.bfontaine.net/up7opt/footer_2.png");
         background-repeat:no-repeat;	
 }
 
@@ -778,7 +653,7 @@ h4 {
         font-size: 1.2em;
         font-weight: bold;
         color: black;
-        background: url(../images/sup.png) no-repeat;
+        background: url("http://static1.bfontaine.net/up7opt/sup.png") no-repeat;
         padding-left: 15px;
         margin-left: 10px;
 }
@@ -1215,7 +1090,7 @@ div#header1 {
         display:inline;
         padding: 3px 3px 3px 15px;
         font-family: Arial, Helvetica, sans-serif;
-        background: url("../images/arrowor.png") 2px no-repeat;
+        background: url("http://static1.bfontaine.net/up7opt/arrowor.png") 2px no-repeat;
         font-size: 1.0em;
         font-weight: bold;
         color: #EF001F;
@@ -1230,7 +1105,7 @@ div#header1 {
         font-style: normal;
         font-weight: bold;
         color: #666;
-        background-image: url("../images/rondRouge.png");
+        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
         background-repeat: no-repeat;
         background-position: left 2px;
         display: block;
@@ -1275,7 +1150,7 @@ div#header1 {
         padding: 0px 0px 0px 8px;
         text-decoration: none;
         color:  #666;
-        background-image: url("../images/rondRouge.png");
+        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
         background-repeat: no-repeat;
         background-position: 0px 5px;
         line-height:12px;
@@ -1290,7 +1165,7 @@ div#header1 {
         padding: 0px 0px 0px 15px;
         text-decoration: none;
         color:  #666;
-        background-image: url("../images/rondRouge.png");
+        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
         background-repeat: no-repeat;
         background-position: 0px 4px;
         line-height:15px;
@@ -1304,7 +1179,7 @@ div#header1 {
         padding: 0px 0px 0px 15px;
         text-decoration: none;
         color:  #666;
-        background-image: url("../images/rondRouge.png");
+        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
         background-repeat: no-repeat;
         background-position: 0px 4px;
         line-height:15px;
@@ -1341,7 +1216,7 @@ div#header1 {
 }
 
 .FlashInfos {
-        background-image: url(../images/flash-infos.png);
+        background-image: url("http://static1.bfontaine.net/up7opt/flash-infos.png");
         background-repeat: no-repeat;
         background-position: left center;
 
@@ -1351,7 +1226,7 @@ div#header1 {
 }
 
 .FlashSport {
-        background-image: url(../images/flash-sport.png);
+        background-image: url("http://static1.bfontaine.net/up7opt/flash-sport.png");
         background-repeat: no-repeat;
         background-position: left center;
         display: inline-block;
@@ -1360,7 +1235,7 @@ div#header1 {
         text-align: center;
 }
 .FlashCulture {
-        background-image: url(../images/flash-culture.png);
+        background-image: url("http://static1.bfontaine.net/up7opt/flash-culture.png");
         background-repeat: no-repeat;
         background-position: left center;
         display: inline-block;
@@ -1369,7 +1244,7 @@ div#header1 {
         text-align: center;
 }
 .FlashVieEtudiante {
-        background-image: url(../images/flash-vie_etudiante.png);
+        background-image: url("http://static1.bfontaine.net/up7opt/flash-vie_etudiante.png");
         background-repeat: no-repeat;
         background-position: left center;
         display:block;
@@ -1379,7 +1254,7 @@ div#header1 {
         text-align: center;
 }
 .info {
-        background-image: url(../images/infoparisdiderot.png);
+        background-image: url("http://static1.bfontaine.net/up7opt/infoparisdiderot.png");
         background-repeat: no-repeat;
         background-position: left center;
 
@@ -1406,7 +1281,7 @@ div#header1 {
         font-style: normal;
         font-weight: bold;
         color: #666;
-        background-image: url("../images/rondRouge.png");
+        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
         background-repeat: no-repeat;
         background-position: left 2px;
         display: block;
@@ -1455,7 +1330,7 @@ div#header1 {
         font-size: 0.75em;
         font-weight:bold;
         font-family:Verdana, Arial, Helvetica, sans-serif;
-        background-image: url("../images/rondRouge.png");
+        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
         background-repeat: no-repeat;
         background-position: 0px 6px;
 
@@ -1484,7 +1359,7 @@ div#header1 {
         font-style: normal;
         font-weight: bold;
         color: #777;
-        background-image: url(../images/point-rouge.png);
+        background-image: url("http://static1.bfontaine.net/up7opt/point-rouge.png");
         background-repeat: no-repeat;
         background-position: left 2px;
         display: block;
@@ -1503,7 +1378,7 @@ div#header1 {
         font-style: normal;
         font-weight: normal;
         color: #201;
-        background-image: url(../images/rondRouge.png);
+        background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
         background-repeat: no-repeat;
         background-position:  0px 4px;
         display: block;

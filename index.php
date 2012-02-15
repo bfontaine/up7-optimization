@@ -1,4 +1,8 @@
-<?php session_start(); ?>
+<?php 
+    // Don't send cookies for static content
+    session_set_cookie_params(1200, '/misc/up7opt/', 'labs.bfontaine.net');
+    session_start();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="fr">
         <head>
@@ -27,11 +31,11 @@
         <div id="cadre">
         <div id="logo">
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=accueil&g=sm&h=o">
-        <img border="0" src="images/logo-P7.png" height="320" width="124" />
+        <img border="0" src="http://static1.bfontaine.net/up7opt/logo-P7.png" height="320" width="124" />
         </a>
         </div>
 
-        <div id="bandeau"><?php echo('<img src="images/accueil_'.mt_rand(1,5).'.png" height="160" width="900" />'); ?></div> 
+        <div id="bandeau"><?php echo('<img src="http://static1.bfontaine.net/up7opt/accueil_'.mt_rand(1,5).'.png" height="160" width="900" />'); ?></div> 
         <div id="bandeau_2">
 
         <div id="deroulant">
@@ -168,10 +172,10 @@
         </ul>
         </div>
         <div style="float:right; margin-top:5px; margin-right:5px; ">
-        <a href="http://www.univ-paris-diderot.fr/index.php"><img src="images/drapeau_francais.jpg" border="0" alt="french" height="21" width="30" /></a>
-        <a href="http://www.univ-paris-diderot.fr/english/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="images/uk.png" border="0" alt="english" height="20" width="30" /></a>
-        <a href="http://www.univ-paris-diderot.fr/spanish/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="images/spain.png" border="0" alt="spanish" height="20" width="30" /></a>
-        <a href="http://www.univ-paris-diderot.fr/chinese/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="images/china.png" border="0" alt="chinese" height="20" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/index.php"><img src="http://static2.bfontaine.net/up7opt/drapeau_francais.jpg" border="0" alt="french" height="21" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/english/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/uk.png" border="0" alt="english" height="20" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/spanish/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/spain.png" border="0" alt="spanish" height="20" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/chinese/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/china.png" border="0" alt="chinese" height="20" width="30" /></a>
         </div>
         <form name="form1" method="get" action="http://cherche.univ-paris-diderot.fr/search">	
         <div class="boutonRech">	
@@ -208,12 +212,12 @@
         </div>
 
         <div style="margin-top:20px; margin-left:auto; margin-right:auto; width:150px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ligne" href="http://fr-fr.facebook.com/univparisdiderot" title="page FaceBook Paris Diderot"><img src="images/faceBook.png" alt="FaceBook" border="0" align="middle" width="18" height="18" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ligne" href="http://fr-fr.facebook.com/univparisdiderot" title="page FaceBook Paris Diderot"><img src="http://static1.bfontaine.net/up7opt/faceBook.png" alt="FaceBook" border="0" align="middle" width="18" height="18" /></a>
         <a class="ligne" href="http://twitter.com/#ParisDiderot" title="Twitter">
-        <img src="images/twitter.png" alt="Suivez Paris Diderot sur Twitter" border="0" align="middle" height="20" width="20" /></a>
+        <img src="http://static1.bfontaine.net/up7opt/twitter.png" alt="Suivez Paris Diderot sur Twitter" border="0" align="middle" height="20" width="20" /></a>
 
         <a class="ligne" href="http://www.univ-paris-diderot.fr/universite/rssActu1.php" title="Syndiquer tout le site">
-        <img src="images/feed.png" alt="Fil Rss du site" border="0" align="middle" height="24" width="24"/></a>
+        <img src="http://static1.bfontaine.net/up7opt/feed.png" alt="Fil Rss du site" border="0" align="middle" height="24" width="24"/></a>
         </div>
 
         <div style="margin-top:10px; margin-bottom:0px; font-size:13px; padding-left:36px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:0.5; color:#D6003D; line-height:18px;">Université Paris Diderot</div>
@@ -223,12 +227,12 @@
         Tél. +33 (0)1 57 27 57 27<br/>
         </div>
         <div style="margin-top:20px; margin-left:auto; margin-right:auto; width:150px">
-        <a href="http://www.sorbonne-paris-cite.fr/"><img src="images/logo-Sorbonne-Paris-Cite.png" width="140" height="117" /></a>
+        <a href="http://www.sorbonne-paris-cite.fr/"><img src="http://static1.bfontaine.net/up7opt/logo-Sorbonne-Paris-Cite.png" width="140" height="117" /></a>
         </div>
 
         <div class="encadre"><br/>
         <p align="center">
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recrutement&np=ACCUEIL&g=m"><img src="images/stickerrecrutement_3.png" border="1" alt="recrutement" width="140" height="119" /></a>
+        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recrutement&np=ACCUEIL&g=m"><img src="http://static1.bfontaine.net/up7opt/stickerrecrutement_3.png" border="1" alt="recrutement" width="140" height="119" /></a>
         </p></div>
         <div id="cleardiv"></div><br/> 
         <div id="cleardiv"></div>
@@ -243,25 +247,25 @@
         <div id="slideInner" style="width: 3360px; "><div class="slide" style="float: left; width: 560px; ">
         <h2> Appel à initiatives étudiantes</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909" class="ui-link-inherit">
-        <img src="images/illu_appelpres2.jpg" alt="project thumbnail" width="120" height="112" /></a>
+        <img src="http://static2.bfontaine.net/up7opt/illu_appelpres2.jpg" alt="project thumbnail" width="120" height="112" /></a>
         Cet appel à projets encourage les projets associatifs et favorise des actions communes avec d’autres membres des établissements du Pres Sorbonne Paris Cité.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909"><span class="suite">Lire la suite</span></a> </p> 
 
         </div><div class="slide" style="float: left; width: 560px; ">
         <h2> Journée portes ouvertes 2012</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910" class="ui-link-inherit">
-        <img src="images/Sticker-JPO2.png" alt="project thumbnail" width="120" height="120" /></a>
+        <img src="http://static1.bfontaine.net/up7opt/Sticker-JPO2.png" alt="project thumbnail" width="120" height="120" /></a>
         Nos prochaines Portes ouvertes concernent les futurs étudiants en médecine et ceux de licence : Sciences, Technologie; Arts, Lettres, Langues ; Economie, Gestion ; Sciences Humaines et Sociales<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910"><span class="suite">Lire la suite</span></a> </p> 
 
         </div><div class="slide" style="float: left; width: 560px; ">
         <h2> Cycle de cinéma chinois: De l'écrit à l'écran &#20013;&#22269;&#30005;&#24433;:&#20889;&#20316;&#21040;&#38134;&#24149;</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3955" class="ui-link-inherit">
-        <img src="images/confucius_cycle_cinema_chinois.jpg" alt="project thumbnail" width="120" height="91" /></a>
+        <img src="http://static2.bfontaine.net/up7opt/confucius_cycle_cinema_chinois.jpg" alt="project thumbnail" width="120" height="91" /></a>
         de novembre 2011 à juin 2012. 2e saison du cycle de cinéma chinois à l'institut Confucius. 16 films seront projetés entre novembre 2011 et juin 2012 et exploreront, des années 1931 à la décennie 2006, les rapports entre le cinéma et la littérature. Chaque film sera introduit par Luisa Prudentino, spécialiste du cinéma chinois et la projection sera suivi d’un débat. <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3955"><span class="suite">Lire la suite</span></a> </p> 
 
         </div><div class="slide" style="float: left; width: 560px; ">
         <h2> Publication</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3953" class="ui-link-inherit">
-        <img src="images/illu_oikos_120.jpg" alt="project thumbnail" width="120" height="146" /></a>
+        <img src="http://static2.bfontaine.net/up7opt/illu_oikos_120.jpg" alt="project thumbnail" width="120" height="146" /></a>
         "L'oikos en fête. Célébrations familiales et sociabilité en Grèce ancienne". 
         Comment définir la famille en Grèce ancienne ? Qui invite-t-on chez soi ? Suivant quelles modalités ? Pourquoi ? Le livre de Florence Gherchanoc, maître de conférences en histoire grecque à l’université Paris Diderot, vient de paraître.   
         &nbsp;<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3953"><span class="suite">Lire la suite</span></a> </p> 
@@ -269,7 +273,7 @@
         </div><div class="slide" style="float: left; width: 560px; ">
         <h2> Publication</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3964" class="ui-link-inherit">
-        <img src="images/couv_communisme150.jpg" alt="project thumbnail" width="120" height="128" /></a>
+        <img src="http://static2.bfontaine.net/up7opt/couv_communisme150.jpg" alt="project thumbnail" width="120" height="128" /></a>
         "Le Communisme primitif n’est plus ce qu’il était" : ce  livre, actuellement en cours de réédition, a été écrit par Christophe  Darmangeat, docteur en sciences économiques à l’université Paris  Diderot.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3964"><span class="suite">Lire la suite</span></a> </p> 
 
         </div></div>
@@ -319,7 +323,7 @@
         <table cellspacing="0" cellpadding="1" border="0" align="left" style="width: 303px; height: 186px;">
         <tbody>
         <tr>
-        <td><img width="120" height="133" src="images/elections.gif" alt=""/></td>
+        <td><img width="120" height="133" src="http://static2.bfontaine.net/up7opt/elections.gif" alt=""/></td>
         <td>&nbsp;</td>
         <td>
         <div class="paragraph5"><span style="color: rgb(0, 0, 0);"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12&g=m"><span style="color: rgb(0, 0, 0);"><strong><span style="font-size: small;">Candidats aux <br/>
@@ -448,11 +452,11 @@
 
         <div class="boiter">
 
-        <ul> <li><img src="images/page-0001.jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_etudiant/index.html" target="_blank">Guide de l'étudiante<br/> et de l'étudiant<br/>Edition 2011-2012</a></li></ul>
+        <ul> <li><img src="http://static2.bfontaine.net/up7opt/page-0001.jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_etudiant/index.html" target="_blank">Guide de l'étudiante<br/> et de l'étudiant<br/>Edition 2011-2012</a></li></ul>
 
-        <ul> <li><img src="images/page-0001(1).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_ang/index.html" target="_blank">Guide international de l'étudiant<br/>version anglaise</a></li></ul>
+        <ul> <li><img src="http://static2.bfontaine.net/up7opt/page-0001(1).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_ang/index.html" target="_blank">Guide international de l'étudiant<br/>version anglaise</a></li></ul>
 
-        <ul> <li><img src="images/page-0001(2).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_fra/index.html" target="_blank">Guide international de l'étudiant<br/>version française</a></li></ul>
+        <ul> <li><img src="http://static2.bfontaine.net/up7opt/page-0001(2).jpg" width="120" height="85"/><a class="legende" href="http://www.univ-paris-diderot.fr/guides/guide_inter_fra/index.html" target="_blank">Guide international de l'étudiant<br/>version française</a></li></ul>
 
         </div>
 

@@ -51,7 +51,7 @@
 }
 
 #menuA li ul li {
-        background-image:url(images/sousmenu.png);
+        /* 404: background-image:url(images/sousmenu.png); */
         width: 145px;
         height:20px; 
         margin-top:0;

@@ -120,26 +120,26 @@ color:#827D82;
 
 
 
-#navigation   li.SousMenu { 
+#navigation li.SousMenu { 
 margin-left:40px;
 margin-top: -2px;
 margin-bottom: 2px;
-padding:0px;
-border-top:0px #993040 solid;
+padding:0;
+border-top:0 #993040 solid;
 }
-#navigation   a.SousMenu { 
+#navigation a.SousMenu { 
 font-family:Arial, Helvetica, sans-serif;
 letter-spacing:0.5px;
-margin-top: 0px;
-margin-bottom: 0px;
+margin-top: 0;
+margin-bottom: 0;
 display: block;
-background-image: url("../images/tiret_r.png");
+background-image: url("http://static1.bfontaine.net/up7opt/tiret_r.png");
 background-repeat: no-repeat;
-margin-left:0px;
+margin-left:0;
 font-size: 0.9em;
 line-height: 1.1em;
 font-weight:normal;
-padding: 0px 3px 3px 8px;
+padding: 0 3px 3px 8px;
 text-decoration: none;
 color:#827D82;
 }
@@ -156,7 +156,7 @@ letter-spacing:0.5px;
 margin-top: 0px;
 margin-bottom: 0px;
 display: block;
-background-image: url("../images/tiret_r.png");
+background-image: url("http://static1.bfontaine.net/up7opt/tiret_r.png");
 background-repeat: no-repeat;
 margin-left:0px;
 font-size: 0.9em;
@@ -302,14 +302,14 @@ margin-right:10px;
 margin-top:5px;
 margin-bottom:5px;
 
-padding: 0px 3px 0px 10px;
+padding: 0 3px 0 10px;
 text-decoration: none;
-color:  #999999;
+color:  #999;
 font-size: 11px;
 line-height:12px;
 font-weight:normal;
 font-family: Arial, Helvetica, sans-serif;
-background-image: url("../images/rondRouge.png");
+background-image: url("http://static1.bfontaine.net/up7opt/rondRouge.png");
 background-repeat: no-repeat;
 background-position: 0px 7px;
 }
@@ -722,7 +722,7 @@ font-family:Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	color: #333333;
-	background-image: url(../images/point-rouge.png);
+	background-image: url("http://static1.bfontaine.net/up7opt/point-rouge.png");
 	background-repeat: no-repeat;
 	background-position: left 2px;
 	display: block;
@@ -768,9 +768,8 @@ padding-bottom:3px;
 padding-left:3px;
 padding-right:1px;
 }
-#content a.titreActualite
-{
-	background-image: url(../images/point-rouge.png);
+#content a.titreActualite {
+	background-image: url("http://static1.bfontaine.net/up7opt/point-rouge.png");
 	background-repeat: no-repeat;
 	background-position: left 2px;
 	color: #333333;

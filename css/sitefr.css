@@ -222,7 +222,7 @@ div .gauche2 {
         text-align:left;
         font-size: 10pt;
         color: white;
-        background-image: url(images/rond.jpg);
+        background-image: url("http://static2.bfontaine.net/up7opt/rond.jpg");
         background-repeat: no-repeat;
         background-position: left center;
         line-height: 20px;
@@ -417,7 +417,7 @@ div .gauche2 {
         text-decoration:none;
 }
 #content .FlashInfos {
-        background-image: url(../images/flash-infos.png);
+        background-image: url("http://static1.bfontaine.net/up7opt/flash-infos.png");
         background-repeat: no-repeat;
         background-position: left center;
         height: 30px;

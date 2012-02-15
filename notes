@@ -8,3 +8,6 @@ Optimize .jpg :
 Resize images :
         $> convert in.jpg -resize $WIDTHx$HEIGHT out.jpg
 
+Images :
+    *.png        -> static1.bfontaine.net/up7opt/
+    *.jpg, *.gif -> static2.bfontaine.net/up7opt/
