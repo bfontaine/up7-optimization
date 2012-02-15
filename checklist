@@ -11,6 +11,7 @@ X : Done
 [X] minify JS scripts
 [X] Use gzip compression (except for binary files)
 [X] Optimize images (delete useless EXIF data)
+[X] Remove ETags
 [ ] Delete unused CSS instructions
 [ ] Merge similar CSS files
 [ ] Optimize CSS (merge similar rules, use #XYZ instead of #XXYYZZ, etc)
@@ -23,7 +24,6 @@ X : Done
 [ ] Make valid HTML/CSS
 [ ] Use WCAG 2.0 recommendations (≥ level A)
 [ ] Use UTF-8 instead of ISO-8859-1
-[ ] Use ETags (?)
 
 
 [X] Display a random image at the top of the site (like the original one)

@@ -20,6 +20,9 @@ SetOutputFilter DEFLATE
 </filesMatch>
 </IfModule>
 
+# ETags
+FileETag none
+
 # pages Expiration 
 #<IfModule mod_expires.c>
 ExpiresActive On
