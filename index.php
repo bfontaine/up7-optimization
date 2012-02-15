@@ -474,12 +474,12 @@
         </div>
         </div>
         <div id="spacer"></div>
+        <div id="finpage"></div>
         </div> 
 
         </div> 
 
         </div>
-        <div class="finpage">&nbsp;</div>
         </div>
         <!--<script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
