@@ -17,9 +17,9 @@
                 <link href="css/commun.css" rel="stylesheet" type="text/css"/>
                 <link href="css/site.css" rel="stylesheet" type="text/css"/>
                 <link href="css/sitefr.css" rel="stylesheet" type="text/css"/>
-                <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+                <link href="css/topmenu.css" rel="stylesheet" type="text/css"/>
                 <link href="css/design.css" rel="stylesheet" media="all"/>
-                <link href="css/menuA.css" rel="stylesheet" type="text/css"/>
+                <link href="css/menu_infos.css" rel="stylesheet" type="text/css"/>
 
                 <script src="js/jquery-1.7.1.min.js"></script>
                 <script src="js/slide.min.js"></script>
