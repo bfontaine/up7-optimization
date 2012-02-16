@@ -1,0 +1,3 @@
+#bandeau : background-position-x: 0px
+           ...................-y: 0px
+
