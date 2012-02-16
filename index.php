@@ -23,7 +23,6 @@
 
                 <script src="js/jquery-1.7.1.min.js"></script>
                 <script src="js/slide.min.js"></script>
-                <script src="js/menu.min.js"></script>
 </head>
         <?php flush(); ?>
         <body>
