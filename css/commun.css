@@ -18,13 +18,19 @@ body {
         height:100%;
 }
 
-a.flag {
-    margin-top:1px;
+a.flag,
+a.share {
     display:inline-block;
-    height:20px;
-    width:30px;
     background-image:url(http://static1.bfontaine.net/up7opt/sprites.png);
 }
+
+/* drapeaux */
+a.flag {
+    margin-top:1px;
+    height:20px;
+    width:30px;
+}
+
 #french {
     background-position-x: -774px;
     background-position-y: -193px;
@@ -42,6 +48,25 @@ a.flag {
 #chinese {
     background-position-x: -504px;
     background-position-y: -162px;
+}
+
+/* liens FB/twitter/RSS */
+a.share {
+    height:18px;
+    width:18px;
+}
+
+#facebook {
+    background-position-x:-484px;
+    background-position-y:-162px;
+}
+#twitter {
+    background-position-x:-341px;
+    background-position-y:-195px;
+}
+#rss {
+    background-position-x:-465px;
+    background-position-y:-161px;
 }
 
 #page1 {

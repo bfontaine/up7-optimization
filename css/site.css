@@ -14,9 +14,6 @@ hr {
         margin-bottom:5px;
 
 }
-#drapeau a.drap{
-        display:inline;
-}
 
 #navigation .trait2
 {
@@ -48,46 +45,6 @@ hr {
         display: block;
         text-decoration: none;
 }
-
-
-
-
-
-#navigation li 
-{
-        display: block;
-        padding-top:7px;
-        padding-bottom:7px;
-        width: 150px;	
-        margin-left:30px;
-        display: block;
-        text-decoration: none;
-        padding-left:2px;
-        height:auto;
-        border-top:1px #993040 solid;
-
-}
-
-
-
-#navigation a
-{
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:1.0em;	
-        margin-top:0px;
-        margin-bottom:0px;
-        margin-left:0px;
-        display: block;
-        text-decoration: none;
-        line-height:12px;
-        letter-spacing:0.5px;
-}
-
-#navigation a.ligne
-{
-        display:inline;
-}
-
 
 #navigation .selection2
 {
@@ -147,25 +104,24 @@ hr {
 
 
 #navigation a.SousMenu:hover {color:red; text-decoration:none;} 
-#SousMenu a:link {text-decoration:none;} 
+#SousMenu a:link,
 #SousMenu a:visited {text-decoration:none;} 
 
 #navigation a.SousMenuRed  {
         font-family:Arial, Helvetica, sans-serif;
         letter-spacing:0.5px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin-top: 0;
+        margin-bottom: 0p
         display: block;
         background-image: url(http://static1.bfontaine.net/up7opt/tiret_r.png);
         background-repeat: no-repeat;
-        margin-left:0px;
+        margin-left:0;
         font-size: 0.9em;
         line-height: 1.1em;
         font-weight:normal;
-        padding: 0px 3px 3px 8px;
+        padding: 0 3px 3px 8px;
         text-decoration: none;
-
-        color:  #EF001F;
+        color: #EF001F;
 }
 
 

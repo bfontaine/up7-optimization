@@ -3,10 +3,10 @@
     session_set_cookie_params(1200, '/misc/up7opt/', 'labs.bfontaine.net');
     session_start();
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="fr">
+<!doctype html>
+<html lang="fr" dir="ltr">
         <head>
-                <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+                <meta charset="ISO-8859-1" />
 
                 <title>Accueil - Université Paris Diderot - Paris 7</title>
 
@@ -14,12 +14,11 @@
                 <meta name="keywords" content="Université,Diderot,Paris,7,enseignement supérieur,formation,continue,sciences,santé,sociales,humaines,langues">
                 <link rel="icon" type="image/ico" href="images/favicon.ico" />
 
-                <link href="css/commun.css" rel="stylesheet" type="text/css"/>
-                <link href="css/site.css" rel="stylesheet" type="text/css"/>
-                <link href="css/sitefr.css" rel="stylesheet" type="text/css"/>
-                <link href="css/topmenu.css" rel="stylesheet" type="text/css"/>
-                <link href="css/design.css" rel="stylesheet" media="all"/>
-                <link href="css/menu_infos.css" rel="stylesheet" type="text/css"/>
+                <link href="css/commun.css" rel="stylesheet" />
+                <link href="css/site.css" rel="stylesheet" />
+                <link href="css/sitefr.css" rel="stylesheet" />
+                <link href="css/design.css" rel="stylesheet" />
+                <link href="css/menus.css" rel="stylesheet" />
 
                 <script src="js/jquery-1.7.1.min.js"></script>
                 <script src="js/slide.min.js"></script>
@@ -41,7 +40,7 @@
         <div id="deroulant">
 
         <div style="float:left">
-        <ul id="menu">
+        <ul id="topmenu">
 
         <li style="margin-top:8px">
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=universite&np=ACCUEIL" class="trans"><div style="height:18px; width:159px; padding-top:5px; padding-left:2px;">
@@ -172,24 +171,24 @@
         </ul>
         </div>
         <div style="float:right; margin-top:5px; margin-right:5px; ">
-        <a class="flag" id="french" href="http://www.univ-paris-diderot.fr/index.php"></a>
-        <a class="flag" id="english" href="http://www.univ-paris-diderot.fr/english/sc/site.php?bc=accueil&np=accueil&g=m/"></a>
-        <a class="flag" id="spanish" href="http://www.univ-paris-diderot.fr/spanish/sc/site.php?bc=accueil&np=accueil&g=m/"></a>
-        <a class="flag" id="chinese" href="http://www.univ-paris-diderot.fr/chinese/sc/site.php?bc=accueil&np=accueil&g=m/"></a>
+        <a class="flag" id="french" title="French" href="http://www.univ-paris-diderot.fr/index.php"></a>
+        <a class="flag" id="english" title="English" href="http://www.univ-paris-diderot.fr/english/sc/site.php?bc=accueil&np=accueil&g=m/"></a>
+        <a class="flag" id="spanish" title="Spanish" href="http://www.univ-paris-diderot.fr/spanish/sc/site.php?bc=accueil&np=accueil&g=m/"></a>
+        <a class="flag" id="chinese" title="Chinese" href="http://www.univ-paris-diderot.fr/chinese/sc/site.php?bc=accueil&np=accueil&g=m/"></a>
         </div>
         <form name="form1" method="get" action="http://cherche.univ-paris-diderot.fr/search">	
         <div class="boutonRech">	
 
-        <input name="q" class="saisieRech" size="50" maxlength="150" type="text">	
-        <input type="hidden" name="client" value="default_frontend">
-        <input type="hidden" name="output" value="xml_no_dtd">
-        <input type="hidden" name="filter" value="0">
-        <input type="hidden" name="proxystylesheet" value="default_frontend">
-        <input name="Submit" type="submit" class="clickRech" value="rechercher">      
+        <input name="q" class="saisieRech" size="50" maxlength="150" type="search" />
+        <input type="hidden" name="client" value="default_frontend" />
+        <input type="hidden" name="output" value="xml_no_dtd" />
+        <input type="hidden" name="filter" value="0" />
+        <input type="hidden" name="proxystylesheet" value="default_frontend" />
+        <input name="Submit" type="submit" class="clickRech" value="rechercher" />      
         </div>
 
         </form>
-        <div style="float:right; margin-top:100px; margin-right:5px; margin-left:50px; width:250px; width:600px; text-align:right; padding:0px; font-family: Helvetica; font-size:14px; color:#fff; letter-spacing:2; ">
+        <div style="float:right; margin-top:100px; margin-right:5px; margin-left:50px; width:250px; width:600px; text-align:right; padding:0px; font-family: Helvetica; font-size:14px; color:#fff; letter-spacing:2pt; ">
         PARIS DIDEROT, VOTRE UNIVERSITE
         </div>
 
@@ -212,12 +211,9 @@
         </div>
 
         <div style="margin-top:20px; margin-left:auto; margin-right:auto; width:150px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ligne" href="http://fr-fr.facebook.com/univparisdiderot" title="page FaceBook Paris Diderot"><img src="http://static1.bfontaine.net/up7opt/faceBook.png" alt="FaceBook" align="middle" width="18" height="18" /></a>
-        <a class="ligne" href="http://twitter.com/#ParisDiderot" title="Twitter">
-        <img src="http://static1.bfontaine.net/up7opt/twitter.png" alt="Suivez Paris Diderot sur Twitter" align="middle" height="20" width="20" /></a>
-
-        <a class="ligne" href="http://www.univ-paris-diderot.fr/universite/rssActu1.php" title="Syndiquer tout le site">
-        <img src="http://static1.bfontaine.net/up7opt/feed.png" alt="Fil Rss du site" align="middle" height="24" width="24"/></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="share" id="facebook" href="http://fr-fr.facebook.com/univparisdiderot" title="page Facebook de Paris Diderot"></a>
+        <a class="share" id="twitter" href="http://twitter.com/#ParisDiderot" title="Twitter"></a>
+        <a class="share" id="rss" href="http://www.univ-paris-diderot.fr/universite/rssActu1.php" title="Syndiquer tout le site"></a>
         </div>
 
         <div style="margin-top:10px; margin-bottom:0px; font-size:13px; padding-left:36px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:0.5; color:#D6003D; line-height:18px;">Université Paris Diderot</div>
@@ -353,16 +349,13 @@
         </div>
 
         <div id="droitet">
-        <div></div>
-        <div></div>
-        <div></div>
         <div class="cleardiv"></div>
         <div class="cleardiv"></div>
         <div class="cleardiv"></div>
 
         <div class="FlashInfos"></div>
         <div class="choix_infos">
-        <ul id="menuA">
+        <ul id="menu_infos">
         <li>
         <a href="http://www.univ-paris-diderot.fr/scf/site.php?bc=accueil&np=ACCUEIL" class="trans">Toutes les infos &#9660;</a>
         <ul>
