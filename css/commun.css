@@ -1344,7 +1344,8 @@ h4 {
 
 #content a {
         display:inline;
-        color: #827D82;
+        font-weight:bold;
+        color: #782D59;
         text-decoration: none;
         line-height:16px;
 }
