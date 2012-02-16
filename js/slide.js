@@ -65,7 +65,7 @@ function pause() {
 if(lectureAutomatique){start();}
 if(affichePlayPause){
         $('#slidesContainer').prepend('<img id="navDiapo" height="20" width="20" src="" alt="Navigation diaporama" />');
-        if(lectureAutomatique == true){
+        if(lectureAutomatique){
                 $('#navDiapo').attr('src',icones['pause']);
         }else{
                 $('#navDiapo').attr('src',icones['play']);	
