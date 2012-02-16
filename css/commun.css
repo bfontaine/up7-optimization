@@ -32,23 +32,13 @@ a.flag {
 }
 
 #french {
-    background-position-x: -774px;
-    background-position-y: -193px;
+    background-position: -774px -193px;
     margin-top:0;
     height:21px;
 }
-#english {
-    background-position-x: -434px;
-    background-position-y: -162px;
-}
-#spanish {
-    background-position-x: -340px;
-    background-position-y: -162px;
-}
-#chinese {
-    background-position-x: -504px;
-    background-position-y: -162px;
-}
+#english {background-position: -434px -162px;}
+#spanish {background-position: -340px -162px;}
+#chinese {background-position: -504px -162px;}
 
 /* liens FB/twitter/RSS */
 a.share {
@@ -58,18 +48,9 @@ a.share {
 }
 a.share + a.share {margin-left:2px;}
 
-#facebook {
-    background-position-x:-484px;
-    background-position-y:-162px;
-}
-#twitter {
-    background-position-x:-341px;
-    background-position-y:-195px;
-}
-#rss {
-    background-position-x:-465px;
-    background-position-y:-161px;
-}
+#facebook {background-position:-484px -162px;}
+#twitter {background-position:-341px -195px;}
+#rss {background-position:-465px -161px;}
 
 #page1 {
         text-align:left;

@@ -7,6 +7,7 @@
 <html lang="fr" dir="ltr">
         <head>
                 <meta charset="ISO-8859-1" />
+                <meta name="language" content="fr" />
 
                 <title>Accueil - Université Paris Diderot - Paris 7</title>
 
