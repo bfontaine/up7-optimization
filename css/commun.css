@@ -1,5 +1,5 @@
 html {
-        font-size:1OO%;
+        font-size:100%;
         margin-bottom:0;
         height:100%;
 }
@@ -16,6 +16,32 @@ body {
         background-repeat:repeat-x;
         line-height:normal;
         height:100%;
+}
+
+a.flag {
+    margin-top:1px;
+    display:inline-block;
+    height:20px;
+    width:30px;
+    background-image:url(http://static1.bfontaine.net/up7opt/sprites.png);
+}
+#french {
+    background-position-x: -774px;
+    background-position-y: -193px;
+    margin-top:0;
+    height:21px;
+}
+#english {
+    background-position-x: -434px;
+    background-position-y: -162px;
+}
+#spanish {
+    background-position-x: -340px;
+    background-position-y: -162px;
+}
+#chinese {
+    background-position-x: -504px;
+    background-position-y: -162px;
 }
 
 #page1 {
