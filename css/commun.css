@@ -54,7 +54,9 @@ a.flag {
 a.share {
     height:18px;
     width:18px;
+    margin-top:3px;
 }
+a.share + a.share {margin-left:2px;}
 
 #facebook {
     background-position-x:-484px;
