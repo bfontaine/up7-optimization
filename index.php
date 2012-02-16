@@ -172,7 +172,7 @@
         </ul>
         </div>
         <div style="float:right; margin-top:5px; margin-right:5px; ">
-        <a href="http://www.univ-paris-diderot.fr/index.php"><img src="http://static2.bfontaine.net/up7opt/drapeau_francais.jpg" alt="french" height="21" width="30" /></a>
+        <a href="http://www.univ-paris-diderot.fr/index.php"><img src="http://static2.bfontaine.net/up7opt/drapeau_francais.png" alt="french" height="21" width="30" /></a>
         <a href="http://www.univ-paris-diderot.fr/english/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/uk.png" alt="english" height="20" width="30" /></a>
         <a href="http://www.univ-paris-diderot.fr/spanish/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/spain.png" alt="spanish" height="20" width="30" /></a>
         <a href="http://www.univ-paris-diderot.fr/chinese/sc/site.php?bc=accueil&np=accueil&g=m/"><img src="http://static1.bfontaine.net/up7opt/china.png" alt="chinese" height="20" width="30" /></a>
