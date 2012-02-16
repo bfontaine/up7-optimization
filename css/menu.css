@@ -85,9 +85,11 @@
         width:124px;
 }
 #deroulant {
-        background-image:url(http://static1.bfontaine.net/up7opt/bande_menus.png);
+        background-image:url(http://static1.bfontaine.net/up7opt/sprites.png);
         height: 160px;
         width:900px;
+        background-position-x:0;
+        background-position-y:0;
         position:relative;
         left:124px; 
         top:0; 

@@ -1,9 +1,3 @@
-#bandeau
-h: 160px
-w: 800px (900 ?)
-background-position-x: 0px
-...................-y: 0px
-
 #fb :
 h: 18px
 w: 18px
