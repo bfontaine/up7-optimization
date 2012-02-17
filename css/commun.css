@@ -45,12 +45,18 @@ a.share {
     height:18px;
     width:18px;
     margin-top:3px;
+    margin-bottom:1px;
 }
-a.share + a.share {margin-left:2px;}
 
 #facebook {background-position:-484px -162px;}
-#twitter {background-position:-341px -195px;}
-#rss {background-position:-465px -161px;}
+#twitter {
+        background-position:-341px -195px;
+        margin-left:1px;
+}
+#rss {
+        background-position:-465px -161px;
+        margin-left:4px;
+}
 
 #page1 {
         text-align:left;
@@ -1353,7 +1359,7 @@ h4 {
 #content a {
         display:inline;
         font-weight:bold;
-        color: #782D59;
+        color: #B7066D;
         text-decoration: none;
         line-height:16px;
 }
