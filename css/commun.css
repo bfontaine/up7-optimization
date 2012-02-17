@@ -1278,44 +1278,30 @@ h4 {
         width: 49%;
 }
 
-.FlashInfos {
-        background-image: url(http://static1.bfontaine.net/up7opt/flash-infos.png);
-        background-repeat: no-repeat;
-        background-position: left center;
-
-        height: 30px;
-        width: 338px;
-        text-align: center;
+#FlashInfos,
+#FlashSport,
+#FlashVieEtudiante,
+#FlashCulture {
+        height:30px;
+        /*width:338px;*/width:185px;
+        background-image: url(http://static1.bfontaine.net/up7opt/sprites.png);
+        text-align:center;
+}
+#FlashInfos {
+        background-position: -434px -192px;
+        margin-top:4px;
 }
 
-.FlashSport {
-        background-image: url(http://static1.bfontaine.net/up7opt/flash-sport.png);
-        background-repeat: no-repeat;
-        background-position: left center;
+/*
+#FlashSport,
+#FlashCulture {
         display: inline-block;
-        height: 30px;
-        width: 338px;
-        text-align: center;
 }
-.FlashCulture {
-        background-image: url(http://static1.bfontaine.net/up7opt/flash-culture.png);
-        background-repeat: no-repeat;
-        background-position: left center;
-        display: inline-block;
-        height: 30px;
-        width: 338px;
-        text-align: center;
-}
-.FlashVieEtudiante {
-        background-image: url(http://static1.bfontaine.net/up7opt/flash-vie_etudiante.png);
-        background-repeat: no-repeat;
-        background-position: left center;
-        display:block;
 
-        height: 30px;
-        width: 338px;
-        text-align: center;
-}
+#FlashSport {background-position:0 -193px;}
+#FlashCulture {background-position:0 -162px;}
+#FlashVieEtudiante {background-position:-536px -162px;}*/
+
 .info {
         background-image: url(http://static1.bfontaine.net/up7opt/infoparisdiderot.png);
         background-repeat: no-repeat;

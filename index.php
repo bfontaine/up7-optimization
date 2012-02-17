@@ -1,5 +1,5 @@
 <?php 
-    // Don't send cookies for static content
+    // Cookies only on this domain
     session_set_cookie_params(1200, '/misc/up7opt/', 'labs.bfontaine.net');
     session_start();
 ?>
@@ -347,11 +347,8 @@
         </div>
 
         <div id="droitet">
-        <div class="cleardiv"></div>
-        <div class="cleardiv"></div>
-        <div class="cleardiv"></div>
 
-        <div class="FlashInfos"></div>
+        <div id="FlashInfos"></div>
         <div class="choix_infos">
         <ul id="menu_infos">
         <li>
