@@ -42,9 +42,8 @@
         <div style="float:left">
         <ul id="topmenu">
 
-        <li style="margin-top:8px">
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=universite&np=ACCUEIL" class="trans"><div style="height:18px; width:159px; padding-top:5px; padding-left:2px;">
-        PARIS DIDEROT   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></a>
+        <li>
+        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=universite&np=ACCUEIL" class="trans">PARIS DIDEROT</a>
         <ul style="margin-top:0px; margin-left:5px">
         <li><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=universite&np=ACCUEIL">L'université</a>
         </li>
@@ -70,8 +69,7 @@
         </li>
 
         <li>
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=formations&np=ACCUEIL" class="trans"><div style="height:18px; width:159px; padding-top:5px; padding-left:2px; ">
-        FORMATIONS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></a>
+        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=formations&np=ACCUEIL" class="trans">FORMATIONS</a>
         <ul style="margin-top:-2px; margin-left:5px">
         <li><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=formations&np=ACCUEIL">Formations</a>
         </li>
@@ -99,7 +97,7 @@
         </li>   
 
         <li>
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recherche&np=ACCUEIL" class="trans"><div style="height:18px; width:159px; padding-top:5px; padding-left:2px; ">RECHERCHE   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></a>
+        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recherche&np=ACCUEIL" class="trans">RECHERCHE</a>
         <ul style="margin-top:-2px; margin-left:5px">
         <li><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recherche&np=ACCUEIL">La recherche à Paris Diderot</a>
         </li>
@@ -121,7 +119,7 @@
         </li>     
 
         <li>
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=vivre_universite&np=ACCUEIL" class="trans"><div style="height:18px; width:159px; padding-top:5px;  padding-left:2px;">VIE DU CAMPUS   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></a>
+        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=vivre_universite&np=ACCUEIL" class="trans">VIE DU CAMPUS</a>
         <ul style="margin-top:-2px; margin-left:5px">
         <li><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=vivre_universite&np=ACCUEIL">Actualités</a>
         </li>
@@ -139,7 +137,7 @@
         </li>
 
         <li>
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=international&np=ACCUEIL" class="trans"><div style="height:18px; width:159px; padding-top:5px; padding-left:2px; ">INTERNATIONAL   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></a>
+        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=international&np=ACCUEIL" class="trans">INTERNATIONAL</a>
         <ul style="margin-top:-2px; margin-left:5px">
         <li><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=international&np=ACCUEIL">Relations Internationales</a>
         </li>
@@ -157,7 +155,7 @@
         </li>
 
         <li>
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=documentation&np=bibliotheque" class="trans"><div style="height:18px; width:159px; padding-top:5px; padding-left:2px; ">DOCUMENTATION   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></a>
+        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=documentation&np=bibliotheque" class="trans">DOCUMENTATION</a>
         <ul style="margin-top:-2px; margin-left:5px">
         <li><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=documentation&np=bibliotheque">Bibliothèque</a>
         </li>

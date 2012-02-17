@@ -9,7 +9,7 @@
         height:141px;
         margin-top:0;
 }
-#topmenu {margin-left:40px;}
+#topmenu {margin-left:40px;margin-bottom:0}
 #menu_infos {margin-left:0;}
 
 #menu_infos li,
@@ -21,11 +21,13 @@
 }
 #topmenu li {
         padding-top:0;
-        margin-top:6px;
-        margin-left:-3px;
-        width : 180px;
+        margin-top:13px;
+        margin-left:-1px;
+        width: 180px;
         height:19px;
-} 
+        letter-spacing:1pt;
+}
+#topmenu li + li {margin-top:6px;}
 #menu_infos li {
         padding-top:6px;
         padding-bottom:6px;
