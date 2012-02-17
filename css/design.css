@@ -18,6 +18,8 @@
   width:540px; 
   height:226px;
 }
+.slide {float:left}
+.slide p {text-align:left !important}
 
 .control {
   display:block;

@@ -185,8 +185,7 @@ hr {
         background-color: #eeeeee;
 }
 
-#menuLien a.legende
-{
+#menuLien a.legende {
         display:block;
         background-image:none;
         padding-left: 5px;
@@ -206,11 +205,6 @@ hr {
         float:left;
         padding:0px
         height:auto;
-
-}
-#menuLien li
-{
-
 
 }
 #menuLien a 
@@ -329,20 +323,6 @@ hr {
         font-weight: normal;
         color:#777777;
         font-style: italic;	
-}
-#contentAccueil 
-{
-        float:left;
-        width:659px;
-        margin-top: 0px;
-        margin-left: 5px;
-        margin-bottom: 0px;
-        color: #000000;
-        text-align : left;
-        padding:5px;
-        background-color:#ffffff;
-        height:auto;
-        margin-left:-180px;
 }
 
 #content {letter-spacing:0.5;}

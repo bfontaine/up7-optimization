@@ -224,7 +224,7 @@
         <a href="http://www.sorbonne-paris-cite.fr/"><img src="http://static1.bfontaine.net/up7opt/logo-Sorbonne-Paris-Cite.png" width="140" height="117" /></a>
         </div>
 
-        <div class="encadre"><br/>
+        <div class="encadre">
         <p align="center">
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=recrutement&np=ACCUEIL&g=m"><img src="http://static1.bfontaine.net/up7opt/stickerrecrutement_3.png" border="1" alt="recrutement" width="140" height="119" /></a>
         </p></div>
@@ -236,41 +236,59 @@
         <div id="page">
 
         <div id="slideshow">
-        <div id="slidesContainer" style="overflow-x: hidden; overflow-y: hidden; ">
+        <div id="slidesContainer">
 
-        <div id="slideInner" style="width: 3360px; "><div class="slide" style="float: left; width: 560px; ">
-        <h2> Appel à initiatives étudiantes</h2>
-        <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909" class="ui-link-inherit">
-        <img src="http://static2.bfontaine.net/up7opt/illu_appelpres2.jpg" alt="project thumbnail" width="120" height="111" /></a>
-        Cet appel à projets encourage les projets associatifs et favorise des actions communes avec d’autres membres des établissements du Pres Sorbonne Paris Cité.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909"><span class="suite">Lire la suite</span></a> </p> 
+        <div id="slideInner">
 
-        </div><div class="slide" style="float: left; width: 560px; ">
-        <h2> Journée portes ouvertes 2012</h2>
-        <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910" class="ui-link-inherit">
-        <img src="http://static1.bfontaine.net/up7opt/Sticker-JPO2.png" alt="project thumbnail" width="120" height="120" /></a>
-        Nos prochaines Portes ouvertes concernent les futurs étudiants en médecine et ceux de licence : Sciences, Technologie; Arts, Lettres, Langues ; Economie, Gestion ; Sciences Humaines et Sociales<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910"><span class="suite">Lire la suite</span></a> </p> 
+<div class="slide">
+ <h2> A découvrir et à lire : le projet IDEX Sorbonne Paris Cité</h2>
+<p><a href="site.php?bc=accueil&np=pageActu&ref=3977"   class="ui-link-inherit" >
+<img src="http://static2.bfontaine.net/up7opt//dossier_idex_1.jpg" width="120" height="96"/></a>
+Le projet IDEX Sorbonne Paris Cit&eacute; est un des laur&eacute;ats de la deuxi&egrave;me vague des appels Initiatives d'excellence lanc&eacute;s dans le cadre des Investissements d'avenir. 
+Au total, 8 projets, dont 4 en Ile-de-France, ont &eacute;t&eacute; s&eacute;lectionn&eacute;s par un jury international compos&eacute; d'universitaires et de repr&eacute;sentants du monde socio-&eacute;conomique. 
+D&eacute;couvrez le dossier laur&eacute;at Idex Sorbonne Paris Cit&eacute;*.
+&nbsp;
+* dossier soumis dans sa version anglaise<a href="site.php?bc=accueil&np=pageActu&ref=3977"><span class="suite" >Lire la suite</span></a> </p> 
+       
+</div>
 
-        </div><div class="slide" style="float: left; width: 560px; ">
+        <div class="slide">
+        <h2> Publication</h2>
+        <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3964" class="ui-link-inherit">
+        <img src="http://static2.bfontaine.net/up7opt/couv_communisme150.jpg" alt="project thumbnail" width="120" height="128" /></a>
+        "Le Communisme primitif n’est plus ce qu’il était" : ce  livre, actuellement en cours de réédition, a été écrit par Christophe  Darmangeat, docteur en sciences économiques à l’université Paris  Diderot.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3964"><span class="suite">Lire la suite</span></a> </p> 
+
+        <div class="slide">
         <h2> Cycle de cinéma chinois: De l'écrit à l'écran &#20013;&#22269;&#30005;&#24433;:&#20889;&#20316;&#21040;&#38134;&#24149;</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3955" class="ui-link-inherit">
         <img src="http://static2.bfontaine.net/up7opt/confucius_cycle_cinema_chinois.jpg" alt="project thumbnail" width="120" height="91" /></a>
         de novembre 2011 à juin 2012. 2e saison du cycle de cinéma chinois à l'institut Confucius. 16 films seront projetés entre novembre 2011 et juin 2012 et exploreront, des années 1931 à la décennie 2006, les rapports entre le cinéma et la littérature. Chaque film sera introduit par Luisa Prudentino, spécialiste du cinéma chinois et la projection sera suivi d’un débat. <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3955"><span class="suite">Lire la suite</span></a> </p> 
+        </div>
 
-        </div><div class="slide" style="float: left; width: 560px; ">
+        <div class="slide">
         <h2> Publication</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3953" class="ui-link-inherit">
         <img src="http://static2.bfontaine.net/up7opt/illu_oikos_120.jpg" alt="project thumbnail" width="120" height="146" /></a>
         "L'oikos en fête. Célébrations familiales et sociabilité en Grèce ancienne". 
         Comment définir la famille en Grèce ancienne ? Qui invite-t-on chez soi ? Suivant quelles modalités ? Pourquoi ? Le livre de Florence Gherchanoc, maître de conférences en histoire grecque à l’université Paris Diderot, vient de paraître.   
         &nbsp;<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3953"><span class="suite">Lire la suite</span></a> </p> 
+        </div>
 
-        </div><div class="slide" style="float: left; width: 560px; ">
-        <h2> Publication</h2>
-        <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3964" class="ui-link-inherit">
-        <img src="http://static2.bfontaine.net/up7opt/couv_communisme150.jpg" alt="project thumbnail" width="120" height="128" /></a>
-        "Le Communisme primitif n’est plus ce qu’il était" : ce  livre, actuellement en cours de réédition, a été écrit par Christophe  Darmangeat, docteur en sciences économiques à l’université Paris  Diderot.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3964"><span class="suite">Lire la suite</span></a> </p> 
+        <div class="slide">
+        <h2> Appel à initiatives étudiantes</h2>
+        <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909" class="ui-link-inherit">
+        <img src="http://static2.bfontaine.net/up7opt/illu_appelpres2.jpg" alt="project thumbnail" width="120" height="111" /></a>
+        Cet appel à projets encourage les projets associatifs et favorise des actions communes avec d’autres membres des établissements du Pres Sorbonne Paris Cité.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909"><span class="suite">Lire la suite</span></a> </p> 
+        </div>
 
-        </div></div>
+        <div class="slide">
+        <h2> Journée portes ouvertes 2012</h2>
+        <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910" class="ui-link-inherit">
+        <img src="http://static1.bfontaine.net/up7opt/Sticker-JPO2.png" alt="project thumbnail" width="120" height="120" /></a>
+        Nos prochaines Portes ouvertes concernent les futurs étudiants en médecine et ceux de licence : Sciences, Technologie; Arts, Lettres, Langues ; Economie, Gestion ; Sciences Humaines et Sociales<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3910"><span class="suite">Lire la suite</span></a> </p> 
+        </div>
+        </div>
+</div>
 
         </div>
         </div>
@@ -318,18 +336,18 @@
         <td><img width="120" height="133" src="http://static2.bfontaine.net/up7opt/elections.gif" alt=""/></td>
         <td>&nbsp;</td>
         <td>
-        <div class="paragraph5"><span style="color:black;"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12&g=m"><span style="color:black;"><strong><span style="font-size: small;">Candidats aux <br/>
+        <div class="paragraph5"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12&g=m">Candidats aux <br/>
         élections des <br/>
         personnels aux <br/>
-        CA,&nbsp;CEVU, CS</span></strong></span></a></span><span style="font-size: small;"><br/>
+        CA,&nbsp;CEVU, CS</a><br/>
         <br/>
-        </span></div>
-        <div class="paragraph5"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12_MED&g=m"><span style="color:black;"><strong><span style="font-size: small;">Candidats aux <br/>
+        </div>
+        <div class="paragraph5"><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=elections&np=ELEC_16_02_12_MED&g=m"><span style="font-size: small;">Candidats aux <br/>
         élections des<br/>
         personnels <br/>
-        UFR&nbsp;de Médecine</span></strong></span></a><span style="font-size: small;"><br/>
-        </span><a href="http://www.univ-paris-diderot.fr/DocumentsFCK/elections/File/ETUD_USAGERS_2012/resultats/IUH%20pers.pdf"><strong><span style="font-size: x-small;"><br/>
-        </span></strong></a></div>
+        UFR&nbsp;de Médecine</span><br/>
+        <a href="http://www.univ-paris-diderot.fr/DocumentsFCK/elections/File/ETUD_USAGERS_2012/resultats/IUH%20pers.pdf"><br/>
+        </a></div>
         </td>
         </tr>
         </tbody>
@@ -377,7 +395,7 @@
 
         </div><div class="cleardiv"></div>
         <div id="listeActuas">
-
+<!--
         <div class="encadreActu">
         <div class="titreActu">Site web : nouvelle ergonomie, nouveau graphisme</div>
         <div class="nouvelle"><p>Le site internet rénové de l’université Paris Diderot a été lancé jeudi 9 février à 12h00.
@@ -399,7 +417,7 @@
         </div>
         <div class="cleardiv"></div>
         <div class="cleardiv"></div>
-        <div class="cleardiv"></div>
+        <div class="cleardiv"></div>-->
         <div class="encadreActu">
         <div class="titreActu">Médaille d'argent</div>
         <div class="nouvelle"><p style="text-align: justify;">Louca Mendy, étudiant en 1<sup>re</sup> année de licence de Sciences économiques et sociales à    l'université Paris Diderot, a décroché la médaille d'argent aux    championnats de France universitaire d'athlétisme.
@@ -413,9 +431,7 @@
         <div class="cleardiv"></div>
         <div class="encadreActu">
         <div class="titreActu">Diversité du japonais et dialectes</div>
-        <div class="nouvelle"><div class="paragraph5"><strong><span style="font-weight: bold;">Ce colloque se tiendra en japonais par le Professeur</span></strong><span style="font-weight: bold;"> </span>Haruo Kubozono &#31402;&#34199;&#26228;&#22827;, chercheur invité par l’Université Paris Diderot</div>
-        <p>&nbsp;
-
+        <div class="nouvelle"><p><b>Ce colloque se tiendra en japonais par le Professeur</b> Haruo Kubozono &#31402;&#34199;&#26228;&#22827;, chercheur invité par l’Université Paris Diderot<br />
 <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3958" class="lirelasuite">lire la suite</a>
 
         </p></div>
@@ -451,7 +467,7 @@
 
         <div class="cleardiv"></div></div>
 
-        <div id="footer">
+        <footer id="pagefooter">
         <div id="menu_footer">
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=annuaire&np=ACCUEIL">Annuaire</a>
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=contact&g=sm">Contact</a>
@@ -461,7 +477,7 @@
         <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=mentions_legales&g=sm#">Informations légales</a>
         <a href="mailto:communic@univ-paris-diderot.fr">Université Paris Diderot - 2012</a>
         </div>
-        </div>
+        </footer>
         <div id="spacer"></div>
         <div id="finpage"></div>
         </div> 
