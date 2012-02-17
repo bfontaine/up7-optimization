@@ -15,11 +15,11 @@
                 <meta name="keywords" content="Université,Diderot,Paris,7,enseignement supérieur,formation,continue,sciences,santé,sociales,humaines,langues">
                 <link rel="icon" type="image/ico" href="images/favicon.ico" />
 
-                <link href="css/commun.css" rel="stylesheet" />
-                <link href="css/site.css" rel="stylesheet" />
-                <link href="css/sitefr.css" rel="stylesheet" />
-                <link href="css/design.css" rel="stylesheet" />
-                <link href="css/menus.css" rel="stylesheet" />
+                <link href="css/commun.min.css" rel="stylesheet" />
+                <link href="css/site.min.css" rel="stylesheet" />
+                <link href="css/sitefr.min.css" rel="stylesheet" />
+                <link href="css/design.min.css" rel="stylesheet" />
+                <link href="css/menus.min.css" rel="stylesheet" />
 
                 <script src="js/jquery-1.7.1.min.js"></script>
                 <script src="js/slide.min.js"></script>
@@ -395,29 +395,6 @@ D&eacute;couvrez le dossier laur&eacute;at Idex Sorbonne Paris Cit&eacute;*.
 
         </div><div class="cleardiv"></div>
         <div id="listeActuas">
-<!--
-        <div class="encadreActu">
-        <div class="titreActu">Site web : nouvelle ergonomie, nouveau graphisme</div>
-        <div class="nouvelle"><p>Le site internet rénové de l’université Paris Diderot a été lancé jeudi 9 février à 12h00.
-
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3949" class="lirelasuite">lire la suite</a>
-
-        </p></div>
-        <div class="cleardiv"></div>    
-        </div>
-        <div class="cleardiv"></div>
-        <div class="encadreActu">
-        <div class="titreActu">Autisme</div>
-        <div class="nouvelle"><p>De nouveaux résultats soulignent l’importance des gènes synaptiques dans l’autisme.
-
-        <a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3950" class="lirelasuite">lire la suite</a>
-
-        </p></div>
-        <div class="cleardiv"></div>    
-        </div>
-        <div class="cleardiv"></div>
-        <div class="cleardiv"></div>
-        <div class="cleardiv"></div>-->
         <div class="encadreActu">
         <div class="titreActu">Médaille d'argent</div>
         <div class="nouvelle"><p style="text-align: justify;">Louca Mendy, étudiant en 1<sup>re</sup> année de licence de Sciences économiques et sociales à    l'université Paris Diderot, a décroché la médaille d'argent aux    championnats de France universitaire d'athlétisme.

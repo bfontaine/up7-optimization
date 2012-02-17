@@ -19,18 +19,13 @@ X : Done
 [X] Make images cacheable
 [X] Use CSS Sprites where needed
 [X] Remove cookies from static content requests
+[X] Make JS files cacheable
+[X] Make CSS files cacheable
+[X] minify CSS files
+[X] Optimize CSS (merge similar rules, use #XYZ instead of #XXYYZZ, etc)
 [~] Delete unused CSS instructions
 [~] Merge similar CSS files
-[~] Optimize CSS (merge similar rules, use #XYZ instead of #XXYYZZ, etc)
 [~] Use HTML5 doctype, new tags & attributes
-[ ] Make JS files cacheable
-[ ] Make CSS files cacheable
-[ ] minify CSS files
-[ ] Remove deprecated HTML attributes (like 'border')
-[ ] Replace HTML tables with correct tags
-[ ] Remove inline CSS and put it in external stylesheets
-[ ] Make valid HTML/CSS
-[ ] Use WCAG 2.0 recommendations (≥ level A)
 
 
 [X] Display a random image at the top of the site (like the original one)

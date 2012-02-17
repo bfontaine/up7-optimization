@@ -24,7 +24,6 @@ a.share {
     background-image:url(http://static1.bfontaine.net/up7opt/sprites.png);
 }
 
-/* drapeaux */
 a.flag {
     margin-top:1px;
     height:20px;
@@ -40,7 +39,6 @@ a.flag {
 #spanish {background-position: -340px -162px;}
 #chinese {background-position: -504px -162px;}
 
-/* liens FB/twitter/RSS */
 a.share {
     height:18px;
     width:18px;
@@ -107,7 +105,7 @@ form {
         margin-bottom:0;
         background-color:white;
 
-        background:transparent /* 404: url(../images/gauche_2n.png)*/ repeat-y scroll 0 100%;
+        background:transparent repeat-y scroll 0 100%;
         text-align: left;
 }
 .bg_droite {
@@ -115,7 +113,7 @@ form {
         margin-left:15px;
         margin-bottom:0;
         background-color:white;
-        background:transparent /* 404: url(../images/droite_2n.png)*/ repeat-y scroll 0 100%;
+        background:transparent repeat-y scroll 0 100%;
         text-align: right;
 
 }
@@ -576,7 +574,7 @@ h3 {
 #FlashVieEtudiante,
 #FlashCulture {
         height:30px;
-        /*width:338px;*/width:185px;
+        width:185px;
         background-image: url(http://static1.bfontaine.net/up7opt/sprites.png);
         text-align:center;
 }
@@ -584,16 +582,6 @@ h3 {
         background-position: -434px -192px;
         margin-top:4px;
 }
-
-/*
-#FlashSport,
-#FlashCulture {
-        display: inline-block;
-}
-
-#FlashSport {background-position:0 -193px;}
-#FlashCulture {background-position:0 -162px;}
-#FlashVieEtudiante {background-position:-536px -162px;}*/
 
 .info {
         background-image: url(http://static1.bfontaine.net/up7opt/infoparisdiderot.png);
