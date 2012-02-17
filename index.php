@@ -241,7 +241,7 @@
         <div id="slideInner" style="width: 3360px; "><div class="slide" style="float: left; width: 560px; ">
         <h2> Appel à initiatives étudiantes</h2>
         <p><a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909" class="ui-link-inherit">
-        <img src="http://static2.bfontaine.net/up7opt/illu_appelpres2.jpg" alt="project thumbnail" width="120" height="112" /></a>
+        <img src="http://static2.bfontaine.net/up7opt/illu_appelpres2.jpg" alt="project thumbnail" width="120" height="111" /></a>
         Cet appel à projets encourage les projets associatifs et favorise des actions communes avec d’autres membres des établissements du Pres Sorbonne Paris Cité.<a href="http://www.univ-paris-diderot.fr/sc/site.php?bc=accueil&np=pageActu&ref=3909"><span class="suite">Lire la suite</span></a> </p> 
 
         </div><div class="slide" style="float: left; width: 560px; ">
